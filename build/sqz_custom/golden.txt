@@ -1,0 +1,11 @@
+image /home/ms/vlsi/sys_v1/artifacts/eval_images/11_coffee_mug/00.jpg
+class 11 coffee mug
+score -19713
+top5 11:coffee mug:-19713 28:teapot:-21317 12:water bottle:-22431 13:pop bottle:-23001 4:digital watch:-23037
+jobs 88
+boot_entries 2212
+flash_bytes 774576
+flash_base 0x0
+acc_saturations 0
+cls_base_word 32384
+cls_words 1872

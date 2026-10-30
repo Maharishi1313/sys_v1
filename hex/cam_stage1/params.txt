@@ -1,0 +1,4 @@
+camera 320x240 RGB565, crop 224 at (48,8), row-planar 672 B/row
+stripes 14 x 4 pool rows, camera slots 3 x 19 rows (12768 B) at 0x60000000, adv 16 halo 3
+pool stripe buffer word 9600, squeeze map word 13312 (14592 words)
+jobs 28; conv1 blob 624 words, squeeze blob 304 words

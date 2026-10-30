@@ -1,0 +1,35 @@
+%Warning: SECSI.TXT:0: $readmem file not found
+%Warning: SFDP.TXT:0: $readmem file not found
+%Warning: SREG.TXT:0: $readmem file not found
+[8.49 us] [MCU ] SPI: 28 jobs, camera config, head, start
+[5325.72 us] [CAM ] streaming 320x240 RGB565 at PCLK 5 MHz
+[8946.67 us] [FSM ] stripe  0: conv1+pool on 9 conv rows (camera rows written 19)
+[11093.87 us] [FSM ] stripe  1: conv1+pool on 9 conv rows (camera rows written 35)
+[13241.07 us] [FSM ] stripe  2: conv1+pool on 9 conv rows (camera rows written 51)
+[15388.27 us] [FSM ] stripe  3: conv1+pool on 9 conv rows (camera rows written 67)
+[17535.47 us] [FSM ] stripe  4: conv1+pool on 9 conv rows (camera rows written 83)
+[19682.67 us] [FSM ] stripe  5: conv1+pool on 9 conv rows (camera rows written 99)
+[21829.87 us] [FSM ] stripe  6: conv1+pool on 9 conv rows (camera rows written 115)
+[23977.07 us] [FSM ] stripe  7: conv1+pool on 9 conv rows (camera rows written 131)
+[26124.27 us] [FSM ] stripe  8: conv1+pool on 9 conv rows (camera rows written 147)
+[28271.47 us] [FSM ] stripe  9: conv1+pool on 9 conv rows (camera rows written 163)
+[30418.67 us] [FSM ] stripe 10: conv1+pool on 9 conv rows (camera rows written 179)
+[32565.87 us] [FSM ] stripe 11: conv1+pool on 9 conv rows (camera rows written 195)
+[34713.07 us] [FSM ] stripe 12: conv1+pool on 9 conv rows (camera rows written 211)
+[36320.14 us] [FSM ] stripe 13: conv1+pool on 7 conv rows (camera rows written 223)
+[36452.40 us] [CAM ] frame written: 224 rows, 14 conv1 stripes already done, overrun 0
+[39986.19 us] [SYS ] host_irq after 3998620 cycles
+
+=== camera front end ===
+  rows checked 224 / 224, rows with wrong data 0, overrun 0
+=== fire2 squeeze map 16 x 55 x 55 (padded frame 16 x 57 x 64 bytes) ===
+  vs full-image bit-exact model : 0 / 14592 words differ
+  vs ONNX original model (conv1 not folded): 16280 values differ, 789 by more than 1, max 3
+=== head ===  expected class 14; pins 14 (valid 1); SPI RESULT 14 (valid 1); STATUS 031b0006
+
+  camera frame complete at 36.45 ms, first conv1 stripe at 8.95 ms, inference done at 40.00 ms
+-> VERDICT: SUCCESS (224x224 crop on chip, 14 stripes streamed during capture, bit-exact, no overrun)
+- tb/tb_system_cam.sv:270: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.036 2025-04-27
+- Verilator: $finish at 40ms; walltime 74.192 s; speed 542.321 us/s
+- Verilator: cpu 73.762 s on 1 threads; alloced 61 MB

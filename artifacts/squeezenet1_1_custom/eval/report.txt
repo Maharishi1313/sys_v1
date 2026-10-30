@@ -1,0 +1,68 @@
+334 images (33 classes, Wikimedia Commons), camera path 320x240 -> RGB565 -> crop 224 @ (48,8)
+
+top-1 accuracy %        orig   orig@33    custom  int(txt)  int top-3   custom==int
+clean                   48.8      82.0      82.0      82.0       92.8         99.4%
+ov7670                  40.4      76.9      77.5      77.2       91.3         98.5%
+
+per class (ov7670), top-1 %:   n   orig  custom  int(txt)
+  golden retriever             11     36      55        55
+  Labrador retriever            7     29     100       100
+  tabby                        12     33     100       100
+  analog clock                 11     18      91        91
+  digital watch                 4     75     100       100
+  backpack                      6     33      83        83
+  purse                        11     36      55        55
+  wallet                        9     56     100       100
+  ballpoint                    12      8      75        75
+  cellular telephone           12      0      17        17
+  remote control               11    100     100       100
+  coffee mug                   11     73     100       100
+  water bottle                 10     50      80        80
+  pop bottle                   11     36      73        64
+  computer keyboard            12     42     100       100
+  laptop                       11      9      55        55
+  monitor                       9     33      56        56
+  mouse                        10     50      60        60
+  television                   12     33      75        75
+  electric fan                 11     73      82        82
+  table lamp                   10     20      50        50
+  folding chair                10     30      80        90
+  pillow                        5      0      80        80
+  plastic bag                   7      0      57        57
+  running shoe                 12     67      92        92
+  sunglasses                   12     17      67        67
+  umbrella                     11     18      55        45
+  refrigerator                 11     36      82        82
+  teapot                       12     83     100       100
+  mountain bike                 6     67      83        83
+  sports car                   12     17      83        83
+  Granny Smith                 12    100     100       100
+  banana                       11     45      91        91
+
+most common confusions (ov7670, int(txt)):  true -> predicted
+   4x  golden retriever -> Labrador retriever
+   4x  purse -> wallet
+   3x  pop bottle -> water bottle
+   3x  monitor -> television
+   3x  umbrella -> electric fan
+   2x  ballpoint -> computer keyboard
+   2x  cellular telephone -> remote control
+   2x  cellular telephone -> wallet
+   2x  cellular telephone -> laptop
+   2x  laptop -> monitor
+   2x  television -> cellular telephone
+   2x  plastic bag -> backpack
+
+what the original 1000-class model said when wrong (ov7670), most common:
+   4x  analog clock -> wall clock
+   4x  cellular telephone -> iPod
+   4x  computer keyboard -> space bar
+   3x  tabby -> Egyptian cat
+   3x  ballpoint -> nail
+   3x  pop bottle -> packet
+   3x  laptop -> notebook
+   3x  folding chair -> rocking chair
+   3x  sports car -> racer
+   2x  golden retriever -> Labrador retriever
+   2x  tabby -> tiger cat
+   2x  analog clock -> barometer

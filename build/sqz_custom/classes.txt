@@ -1,0 +1,33 @@
+0 golden retriever
+1 Labrador retriever
+2 tabby
+3 analog clock
+4 digital watch
+5 backpack
+6 purse
+7 wallet
+8 ballpoint
+9 cellular telephone
+10 remote control
+11 coffee mug
+12 water bottle
+13 pop bottle
+14 computer keyboard
+15 laptop
+16 monitor
+17 mouse
+18 television
+19 electric fan
+20 table lamp
+21 folding chair
+22 pillow
+23 plastic bag
+24 running shoe
+25 sunglasses
+26 umbrella
+27 refrigerator
+28 teapot
+29 mountain bike
+30 sports car
+31 Granny Smith
+32 banana

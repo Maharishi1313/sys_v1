@@ -1,0 +1,90 @@
+%Warning: SECSI.TXT:0: $readmem file not found
+%Warning: SFDP.TXT:0: $readmem file not found
+%Warning: SREG.TXT:0: $readmem file not found
+[13.47 us] [MCU ] SPI read ID = 5ace0001    ok
+[13.47 us] [MCU ] SPI: 4 layer descriptors, head config, start
+[1688.52 us] [CAM ] streaming 160x40 frame (patch 3x65x65 uint8)
+[1707.66 us] [DMA ] layer 0 passes 0..4: 195 words flash -> WSRAM, 0 mismatches
+[2816.54 us] [DVP ] frame -> cam_frontend (raw) -> act_mem: 0 / 3169 words mismatch, 40 rows, overrun 0
+[2818.48 us] [FSM ] layer 0: k_len=27 n_pass=16 maxpool=1 pad_out=0 oc_off=0 valid_w=0 cam_rows=40
+[3250.60 us] [DMA ] layer 0 passes 5..9: 195 words flash -> WSRAM, 0 mismatches
+[3684.68 us] [DMA ] layer 0 passes 10..14: 195 words flash -> WSRAM, 0 mismatches
+[4101.78 us] [DMA ] layer 0 passes 15..15: 39 words flash -> WSRAM, 0 mismatches
+[4211.40 us] [DMA ] layer 1 passes 0..2: 228 words flash -> WSRAM, 0 mismatches
+[4211.44 us] [FSM ]   border fill of 16 output frames
+[4220.43 us] [FSM ] layer 1: k_len=64 n_pass=4 maxpool=0 pad_out=1 oc_off=0 valid_w=15 cam_rows=40
+[4366.75 us] [DMA ] layer 1 passes 3..3: 76 words flash -> WSRAM, 0 mismatches
+[4463.64 us] [DMA ] layer 2 passes 0..15: 448 words flash -> WSRAM, 0 mismatches
+[4465.60 us] [FSM ] layer 2: k_len=16 n_pass=16 maxpool=0 pad_out=0 oc_off=0 valid_w=0 cam_rows=40
+[4978.80 us] [DMA ] layer 3 passes 0..15: 2496 words flash -> WSRAM, 0 mismatches
+[4980.76 us] [FSM ] layer 3: k_len=144 n_pass=16 maxpool=0 pad_out=0 oc_off=64 valid_w=0 cam_rows=40
+[7925.10 us] [SYS ] host_irq after 792511 cycles
+
+=== run 1: L0 conv1+pool (bank B at L1 start, 64 x 16 x 16) ===
+  L0 vs bit-exact model 16x16        : 0 / 16384 values differ
+    L0 vs ONNX 15x15 mismatch C25 Y1 X5 : hw -124 exp -123
+    L0 vs ONNX 15x15 mismatch C51 Y6 X6 : hw -128 exp -127
+    L0 vs ONNX 15x15 mismatch C61 Y1 X7 : hw -124 exp -123
+  L0 vs ONNX 15x15                   : 3 / 14400 values differ
+=== run 1: L1 squeeze (bank A, padded frame 16 x 18 x 24) ===
+  L1 frame vs model (incl. border)   : 0 / 6912 values differ
+    L1 vs ONNX 15x15 mismatch C1 Y2 X11 : hw -108 exp -107
+    L1 vs ONNX 15x15 mismatch C1 Y10 X14 : hw -41 exp -40
+    L1 vs ONNX 15x15 mismatch C2 Y2 X9 : hw -106 exp -105
+  L1 vs ONNX 15x15                   : 15 / 3600 values differ
+=== run 1: L2+L3 fire2 concat (bank B, 128 x 16 x 16) ===
+  concat vs bit-exact model 16x16    : 0 / 32768 values differ
+    concat vs ONNX 14x14 mismatch C1 Y9 X5 : hw -124 exp -123
+    concat vs ONNX 14x14 mismatch C1 Y9 X10 : hw -121 exp -122
+    concat vs ONNX 14x14 mismatch C3 Y1 X0 : hw -120 exp -119
+  concat vs ONNX 14x14               : 273 / 25088 values differ
+
+=== Classifier head / result interface ===
+  expected argmax class 55 (score -25926)
+  result pins     : valid=1 class=55
+  SPI RESULT/SCORE: valid=1 class=55 score=-25926   STATUS=0f030006
+  SPI SRAM read   : output word 1234 = 80898b8b (exp 80898b8b)
+  IRQ after W1C   : host_irq=0 IRQ=0
+
+=== Second inference (restart over SPI, new frame) ===
+[8041.79 us] [DMA ] layer 0 passes 0..4: 195 words flash -> WSRAM, 0 mismatches
+[9163.66 us] [DVP ] frame -> cam_frontend (raw) -> act_mem: 0 / 3169 words mismatch, 40 rows, overrun 0
+[9165.60 us] [FSM ] layer 0: k_len=27 n_pass=16 maxpool=1 pad_out=0 oc_off=0 valid_w=0 cam_rows=40
+[9597.72 us] [DMA ] layer 0 passes 5..9: 195 words flash -> WSRAM, 0 mismatches
+[10031.80 us] [DMA ] layer 0 passes 10..14: 195 words flash -> WSRAM, 0 mismatches
+[10448.90 us] [DMA ] layer 0 passes 15..15: 39 words flash -> WSRAM, 0 mismatches
+[10558.52 us] [DMA ] layer 1 passes 0..2: 228 words flash -> WSRAM, 0 mismatches
+[10558.56 us] [FSM ]   border fill of 16 output frames
+[10567.55 us] [FSM ] layer 1: k_len=64 n_pass=4 maxpool=0 pad_out=1 oc_off=0 valid_w=15 cam_rows=40
+[10713.87 us] [DMA ] layer 1 passes 3..3: 76 words flash -> WSRAM, 0 mismatches
+[10810.76 us] [DMA ] layer 2 passes 0..15: 448 words flash -> WSRAM, 0 mismatches
+[10812.72 us] [FSM ] layer 2: k_len=16 n_pass=16 maxpool=0 pad_out=0 oc_off=0 valid_w=0 cam_rows=40
+[11325.92 us] [DMA ] layer 3 passes 0..15: 2496 words flash -> WSRAM, 0 mismatches
+[11327.88 us] [FSM ] layer 3: k_len=144 n_pass=16 maxpool=0 pad_out=0 oc_off=64 valid_w=0 cam_rows=40
+[14285.50 us] [SYS ] 2nd inference: pins class=55 valid=1, SPI RESULT class=55 valid=1
+
+=== run 2: L0 conv1+pool (bank B at L1 start, 64 x 16 x 16) ===
+  L0 vs bit-exact model 16x16        : 0 / 16384 values differ
+    L0 vs ONNX 15x15 mismatch C25 Y1 X5 : hw -124 exp -123
+    L0 vs ONNX 15x15 mismatch C51 Y6 X6 : hw -128 exp -127
+    L0 vs ONNX 15x15 mismatch C61 Y1 X7 : hw -124 exp -123
+  L0 vs ONNX 15x15                   : 3 / 14400 values differ
+=== run 2: L1 squeeze (bank A, padded frame 16 x 18 x 24) ===
+  L1 frame vs model (incl. border)   : 0 / 6912 values differ
+    L1 vs ONNX 15x15 mismatch C1 Y2 X11 : hw -108 exp -107
+    L1 vs ONNX 15x15 mismatch C1 Y10 X14 : hw -41 exp -40
+    L1 vs ONNX 15x15 mismatch C2 Y2 X9 : hw -106 exp -105
+  L1 vs ONNX 15x15                   : 15 / 3600 values differ
+=== run 2: L2+L3 fire2 concat (bank B, 128 x 16 x 16) ===
+  concat vs bit-exact model 16x16    : 0 / 32768 values differ
+    concat vs ONNX 14x14 mismatch C1 Y9 X5 : hw -124 exp -123
+    concat vs ONNX 14x14 mismatch C1 Y9 X10 : hw -121 exp -122
+    concat vs ONNX 14x14 mismatch C3 Y1 X0 : hw -120 exp -119
+  concat vs ONNX 14x14               : 273 / 25088 values differ
+
+  max |hw - ONNX| = 1 LSB (float QDQ vs fixed-point requant; gen_sqz_fire2.py prints the expected counts)
+-> VERDICT: SUCCESS (SPI, DVP, chunked QSPI/DMA weights, conv1+pool+fire2 bit-exact, ONNX within 1 LSB, argmax head + pins, 2 inferences)
+- tb/tb_system_sqz.sv:391: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.036 2025-04-27
+- Verilator: $finish at 14ms; walltime 26.052 s; speed 552.403 us/s
+- Verilator: cpu 25.861 s on 1 threads; alloced 61 MB

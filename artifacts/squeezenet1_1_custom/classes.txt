@@ -1,0 +1,33 @@
+0 207 golden retriever
+1 208 Labrador retriever
+2 281 tabby
+3 409 analog clock
+4 531 digital watch
+5 414 backpack
+6 748 purse
+7 893 wallet
+8 418 ballpoint
+9 487 cellular telephone
+10 761 remote control
+11 504 coffee mug
+12 898 water bottle
+13 737 pop bottle
+14 508 computer keyboard
+15 620 laptop
+16 664 monitor
+17 673 mouse
+18 851 television
+19 545 electric fan
+20 846 table lamp
+21 559 folding chair
+22 721 pillow
+23 728 plastic bag
+24 770 running shoe
+25 837 sunglasses
+26 879 umbrella
+27 760 refrigerator
+28 849 teapot
+29 671 mountain bike
+30 817 sports car
+31 948 Granny Smith
+32 954 banana

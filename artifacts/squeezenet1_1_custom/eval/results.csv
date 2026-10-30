@@ -1,0 +1,669 @@
+condition,file,true,orig,orig@33,custom,int(txt),custom_top3
+clean,00_golden_retriever/00.jpg,golden retriever,borzoi,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|computer keyboard
+ov7670,00_golden_retriever/00.jpg,golden retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|golden retriever|computer keyboard
+clean,00_golden_retriever/02.jpg,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|cellular telephone
+ov7670,00_golden_retriever/02.jpg,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|cellular telephone
+clean,00_golden_retriever/03.jpg,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|tabby
+ov7670,00_golden_retriever/03.jpg,golden retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|golden retriever|cellular telephone
+clean,00_golden_retriever/04.jpg,golden retriever,borzoi,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|cellular telephone
+ov7670,00_golden_retriever/04.jpg,golden retriever,Brittany spaniel,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|golden retriever|cellular telephone
+clean,00_golden_retriever/05.jpg,golden retriever,borzoi,plastic bag,plastic bag,plastic bag,plastic bag|golden retriever|tabby
+ov7670,00_golden_retriever/05.jpg,golden retriever,borzoi,plastic bag,plastic bag,plastic bag,plastic bag|golden retriever|Labrador retriever
+clean,00_golden_retriever/07.jpg,golden retriever,beagle,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|tabby
+ov7670,00_golden_retriever/07.jpg,golden retriever,beagle,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|tabby
+clean,00_golden_retriever/08.jpg,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|computer keyboard
+ov7670,00_golden_retriever/08.jpg,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|tabby
+clean,00_golden_retriever/09.jpg,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|sunglasses
+ov7670,00_golden_retriever/09.jpg,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|cellular telephone
+clean,00_golden_retriever/11.jpg,golden retriever,Irish setter,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|tabby
+ov7670,00_golden_retriever/11.jpg,golden retriever,Irish setter,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|tabby
+clean,00_golden_retriever/bbe8a091.jpg,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|plastic bag
+ov7670,00_golden_retriever/bbe8a091.jpg,golden retriever,kuvasz,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|golden retriever|cellular telephone
+clean,00_golden_retriever/daf308e6.jpg,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|water bottle
+ov7670,00_golden_retriever/daf308e6.jpg,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|water bottle
+clean,01_Labrador_retriever/00.jpg,Labrador retriever,flat-coated retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|sunglasses|backpack
+ov7670,01_Labrador_retriever/00.jpg,Labrador retriever,Weimaraner,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|backpack|cellular telephone
+clean,01_Labrador_retriever/01.jpg,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|golden retriever|sunglasses
+ov7670,01_Labrador_retriever/01.jpg,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|golden retriever|tabby
+clean,01_Labrador_retriever/02.jpg,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|tabby|backpack
+ov7670,01_Labrador_retriever/02.jpg,Labrador retriever,Mexican hairless,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|tabby|sunglasses
+clean,01_Labrador_retriever/03.jpg,Labrador retriever,Italian greyhound,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|pillow|golden retriever
+ov7670,01_Labrador_retriever/03.jpg,Labrador retriever,Chihuahua,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|golden retriever|pillow
+clean,01_Labrador_retriever/06.jpg,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|golden retriever|cellular telephone
+ov7670,01_Labrador_retriever/06.jpg,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|golden retriever|plastic bag
+clean,01_Labrador_retriever/09.jpg,Labrador retriever,kuvasz,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|mouse
+ov7670,01_Labrador_retriever/09.jpg,Labrador retriever,kuvasz,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|golden retriever|remote control
+clean,01_Labrador_retriever/10.jpg,Labrador retriever,Italian greyhound,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|golden retriever|computer keyboard
+ov7670,01_Labrador_retriever/10.jpg,Labrador retriever,Siamese cat,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|golden retriever|computer keyboard
+clean,02_tabby/00.jpg,tabby,tiger cat,tabby,tabby,tabby,tabby|plastic bag|mouse
+ov7670,02_tabby/00.jpg,tabby,Egyptian cat,tabby,tabby,tabby,tabby|plastic bag|mouse
+clean,02_tabby/01.jpg,tabby,wallaby,tabby,tabby,tabby,tabby|Labrador retriever|golden retriever
+ov7670,02_tabby/01.jpg,tabby,cougar,tabby,tabby,tabby,tabby|golden retriever|Labrador retriever
+clean,02_tabby/02.jpg,tabby,tiger cat,tabby,tabby,tabby,tabby|Labrador retriever|golden retriever
+ov7670,02_tabby/02.jpg,tabby,Egyptian cat,tabby,tabby,tabby,tabby|Labrador retriever|golden retriever
+clean,02_tabby/03.jpg,tabby,tabby,tabby,tabby,tabby,tabby|plastic bag|remote control
+ov7670,02_tabby/03.jpg,tabby,tiger cat,tabby,tabby,tabby,tabby|plastic bag|remote control
+clean,02_tabby/04.jpg,tabby,lynx,tabby,tabby,tabby,tabby|computer keyboard|plastic bag
+ov7670,02_tabby/04.jpg,tabby,lynx,tabby,tabby,tabby,tabby|computer keyboard|golden retriever
+clean,02_tabby/05.jpg,tabby,tiger cat,tabby,tabby,tabby,tabby|laptop|plastic bag
+ov7670,02_tabby/05.jpg,tabby,tiger cat,tabby,tabby,tabby,tabby|golden retriever|laptop
+clean,02_tabby/06.jpg,tabby,tabby,tabby,tabby,tabby,tabby|plastic bag|laptop
+ov7670,02_tabby/06.jpg,tabby,tabby,tabby,tabby,tabby,tabby|plastic bag|laptop
+clean,02_tabby/07.jpg,tabby,wild boar,tabby,tabby,tabby,tabby|Labrador retriever|mouse
+ov7670,02_tabby/07.jpg,tabby,hyena,tabby,tabby,tabby,tabby|mouse|golden retriever
+clean,02_tabby/08.jpg,tabby,tabby,tabby,tabby,tabby,tabby|plastic bag|computer keyboard
+ov7670,02_tabby/08.jpg,tabby,tabby,tabby,tabby,tabby,tabby|computer keyboard|Labrador retriever
+clean,02_tabby/09.jpg,tabby,tiger cat,tabby,tabby,tabby,tabby|plastic bag|remote control
+ov7670,02_tabby/09.jpg,tabby,Egyptian cat,tabby,tabby,tabby,tabby|plastic bag|remote control
+clean,02_tabby/10.jpg,tabby,tabby,tabby,tabby,tabby,tabby|plastic bag|computer keyboard
+ov7670,02_tabby/10.jpg,tabby,tabby,tabby,tabby,tabby,tabby|plastic bag|laptop
+clean,02_tabby/11.jpg,tabby,tabby,tabby,tabby,tabby,tabby|plastic bag|mouse
+ov7670,02_tabby/11.jpg,tabby,tabby,tabby,tabby,tabby,tabby|plastic bag|mouse
+clean,03_analog_clock/00.jpg,analog clock,wall clock,analog clock,analog clock,analog clock,analog clock|digital watch|cellular telephone
+ov7670,03_analog_clock/00.jpg,analog clock,wall clock,analog clock,analog clock,analog clock,analog clock|digital watch|cellular telephone
+clean,03_analog_clock/01.jpg,analog clock,wall clock,analog clock,analog clock,analog clock,analog clock|digital watch|electric fan
+ov7670,03_analog_clock/01.jpg,analog clock,wall clock,analog clock,analog clock,analog clock,analog clock|digital watch|cellular telephone
+clean,03_analog_clock/03.jpg,analog clock,wall clock,analog clock,analog clock,analog clock,analog clock|digital watch|cellular telephone
+ov7670,03_analog_clock/03.jpg,analog clock,wall clock,analog clock,analog clock,analog clock,analog clock|digital watch|cellular telephone
+clean,03_analog_clock/04.jpg,analog clock,wall clock,analog clock,analog clock,analog clock,analog clock|electric fan|wallet
+ov7670,03_analog_clock/04.jpg,analog clock,wall clock,analog clock,analog clock,analog clock,analog clock|wallet|purse
+clean,03_analog_clock/05.jpg,analog clock,harvestman,umbrella,umbrella,umbrella,umbrella|analog clock|banana
+ov7670,03_analog_clock/05.jpg,analog clock,harvestman,umbrella,umbrella,umbrella,umbrella|analog clock|electric fan
+clean,03_analog_clock/06.jpg,analog clock,wall clock,analog clock,analog clock,analog clock,analog clock|digital watch|cellular telephone
+ov7670,03_analog_clock/06.jpg,analog clock,analog clock,analog clock,analog clock,analog clock,analog clock|digital watch|cellular telephone
+clean,03_analog_clock/09.jpg,analog clock,wall clock,analog clock,analog clock,analog clock,analog clock|table lamp|pop bottle
+ov7670,03_analog_clock/09.jpg,analog clock,barometer,analog clock,analog clock,analog clock,analog clock|table lamp|television
+clean,03_analog_clock/501fad84.jpg,analog clock,barometer,analog clock,analog clock,analog clock,analog clock|digital watch|teapot
+ov7670,03_analog_clock/501fad84.jpg,analog clock,barometer,analog clock,analog clock,analog clock,analog clock|digital watch|cellular telephone
+clean,03_analog_clock/5f93570d.jpg,analog clock,magnetic compass,analog clock,analog clock,analog clock,analog clock|electric fan|digital watch
+ov7670,03_analog_clock/5f93570d.jpg,analog clock,magnetic compass,analog clock,analog clock,analog clock,analog clock|electric fan|digital watch
+clean,03_analog_clock/91e76e13.jpg,analog clock,analog clock,analog clock,analog clock,analog clock,analog clock|pillow|wallet
+ov7670,03_analog_clock/91e76e13.jpg,analog clock,analog clock,analog clock,analog clock,analog clock,analog clock|wallet|pillow
+clean,03_analog_clock/dee7b82a.jpg,analog clock,cocktail shaker,analog clock,analog clock,analog clock,analog clock|digital watch|water bottle
+ov7670,03_analog_clock/dee7b82a.jpg,analog clock,saltshaker,analog clock,analog clock,analog clock,analog clock|digital watch|water bottle
+clean,04_digital_watch/01.jpg,digital watch,digital watch,digital watch,digital watch,digital watch,digital watch|analog clock|cellular telephone
+ov7670,04_digital_watch/01.jpg,digital watch,digital watch,digital watch,digital watch,digital watch,digital watch|cellular telephone|analog clock
+clean,04_digital_watch/05.jpg,digital watch,stopwatch,digital watch,digital watch,analog clock,analog clock|digital watch|electric fan
+ov7670,04_digital_watch/05.jpg,digital watch,stopwatch,digital watch,digital watch,digital watch,digital watch|analog clock|electric fan
+clean,04_digital_watch/5d428d96.jpg,digital watch,digital watch,digital watch,digital watch,digital watch,digital watch|analog clock|cellular telephone
+ov7670,04_digital_watch/5d428d96.jpg,digital watch,digital watch,digital watch,digital watch,digital watch,digital watch|cellular telephone|analog clock
+clean,04_digital_watch/b3a24e88.jpg,digital watch,digital watch,digital watch,digital watch,digital watch,digital watch|cellular telephone|analog clock
+ov7670,04_digital_watch/b3a24e88.jpg,digital watch,digital watch,digital watch,digital watch,digital watch,digital watch|cellular telephone|analog clock
+clean,05_backpack/02.jpg,backpack,backpack,backpack,backpack,backpack,backpack|running shoe|purse
+ov7670,05_backpack/02.jpg,backpack,oxygen mask,backpack,backpack,backpack,backpack|running shoe|purse
+clean,05_backpack/03.jpg,backpack,sweatshirt,wallet,water bottle,water bottle,water bottle|umbrella|wallet
+ov7670,05_backpack/03.jpg,backpack,cardigan,backpack,backpack,backpack,backpack|pillow|tabby
+clean,05_backpack/06.jpg,backpack,steel drum,backpack,backpack,backpack,backpack|teapot|plastic bag
+ov7670,05_backpack/06.jpg,backpack,shield,teapot,teapot,teapot,teapot|backpack|purse
+clean,05_backpack/08.jpg,backpack,backpack,backpack,backpack,backpack,backpack|pop bottle|electric fan
+ov7670,05_backpack/08.jpg,backpack,backpack,backpack,backpack,backpack,backpack|purse|pop bottle
+clean,05_backpack/10.jpg,backpack,backpack,backpack,backpack,backpack,backpack|Labrador retriever|purse
+ov7670,05_backpack/10.jpg,backpack,backpack,backpack,backpack,backpack,backpack|Labrador retriever|purse
+clean,05_backpack/11.jpg,backpack,seat belt,umbrella,umbrella,umbrella,umbrella|backpack|purse
+ov7670,05_backpack/11.jpg,backpack,seat belt,backpack,backpack,backpack,backpack|umbrella|folding chair
+clean,06_purse/01.jpg,purse,submarine,wallet,wallet,wallet,wallet|purse|umbrella
+ov7670,06_purse/01.jpg,purse,wing,wallet,wallet,wallet,wallet|sports car|umbrella
+clean,06_purse/03.jpg,purse,hamper,purse,purse,purse,purse|backpack|wallet
+ov7670,06_purse/03.jpg,purse,purse,purse,purse,purse,purse|wallet|backpack
+clean,06_purse/04.jpg,purse,purse,purse,purse,purse,purse|backpack|teapot
+ov7670,06_purse/04.jpg,purse,purse,purse,purse,purse,purse|backpack|table lamp
+clean,06_purse/05.jpg,purse,purse,purse,purse,purse,purse|wallet|backpack
+ov7670,06_purse/05.jpg,purse,purse,purse,purse,purse,purse|wallet|backpack
+clean,06_purse/2187d5b6.jpg,purse,purse,purse,purse,purse,purse|backpack|umbrella
+ov7670,06_purse/2187d5b6.jpg,purse,purse,purse,purse,purse,purse|backpack|wallet
+clean,06_purse/21ee8d9f.jpg,purse,radio,purse,purse,purse,purse|backpack|folding chair
+ov7670,06_purse/21ee8d9f.jpg,purse,chime,folding chair,folding chair,folding chair,folding chair|purse|table lamp
+clean,06_purse/413d65e8.jpg,purse,wallet,wallet,wallet,wallet,wallet|purse|pillow
+ov7670,06_purse/413d65e8.jpg,purse,toaster,wallet,wallet,wallet,wallet|purse|television
+clean,06_purse/8daab14e.jpg,purse,wallet,wallet,wallet,wallet,wallet|purse|backpack
+ov7670,06_purse/8daab14e.jpg,purse,wallet,wallet,wallet,wallet,wallet|purse|television
+clean,06_purse/9c87ee08.jpg,purse,holster,purse,purse,purse,purse|electric fan|table lamp
+ov7670,06_purse/9c87ee08.jpg,purse,holster,purse,purse,purse,purse|backpack|pillow
+clean,06_purse/adbc4c24.jpg,purse,chest,purse,purse,purse,purse|wallet|teapot
+ov7670,06_purse/adbc4c24.jpg,purse,prayer rug,purse,purse,purse,purse|wallet|teapot
+clean,06_purse/b73e444b.jpg,purse,wallet,wallet,wallet,wallet,wallet|backpack|purse
+ov7670,06_purse/b73e444b.jpg,purse,wallet,wallet,wallet,wallet,wallet|purse|backpack
+clean,07_wallet/00.jpg,wallet,harmonica,wallet,wallet,wallet,wallet|ballpoint|running shoe
+ov7670,07_wallet/00.jpg,wallet,pencil box,wallet,wallet,wallet,wallet|ballpoint|purse
+clean,07_wallet/01.jpg,wallet,wallet,wallet,wallet,wallet,wallet|purse|sunglasses
+ov7670,07_wallet/01.jpg,wallet,wallet,wallet,wallet,wallet,wallet|purse|sunglasses
+clean,07_wallet/02.jpg,wallet,loudspeaker,wallet,wallet,wallet,wallet|backpack|purse
+ov7670,07_wallet/02.jpg,wallet,loudspeaker,wallet,wallet,wallet,wallet|television|backpack
+clean,07_wallet/04.jpg,wallet,manhole cover,running shoe,running shoe,running shoe,running shoe|water bottle|purse
+ov7670,07_wallet/04.jpg,wallet,doormat,wallet,wallet,wallet,wallet|running shoe|purse
+clean,07_wallet/07.jpg,wallet,wallet,wallet,wallet,wallet,wallet|purse|laptop
+ov7670,07_wallet/07.jpg,wallet,wallet,wallet,wallet,wallet,wallet|purse|laptop
+clean,07_wallet/09.jpg,wallet,wallet,wallet,wallet,wallet,wallet|purse|pillow
+ov7670,07_wallet/09.jpg,wallet,wallet,wallet,wallet,wallet,wallet|purse|pillow
+clean,07_wallet/09c83520.jpg,wallet,fountain pen,wallet,wallet,wallet,wallet|ballpoint|cellular telephone
+ov7670,07_wallet/09c83520.jpg,wallet,mousetrap,wallet,wallet,wallet,wallet|ballpoint|laptop
+clean,07_wallet/11d275f2.jpg,wallet,wallet,wallet,wallet,wallet,wallet|purse|backpack
+ov7670,07_wallet/11d275f2.jpg,wallet,wallet,wallet,wallet,wallet,wallet|purse|laptop
+clean,07_wallet/a4ea9e4b.jpg,wallet,wallet,wallet,wallet,wallet,wallet|purse|ballpoint
+ov7670,07_wallet/a4ea9e4b.jpg,wallet,wallet,wallet,wallet,wallet,wallet|purse|ballpoint
+clean,08_ballpoint/00.jpg,ballpoint,thimble,ballpoint,ballpoint,ballpoint,ballpoint|water bottle|coffee mug
+ov7670,08_ballpoint/00.jpg,ballpoint,hook,ballpoint,ballpoint,ballpoint,ballpoint|coffee mug|water bottle
+clean,08_ballpoint/01.jpg,ballpoint,electric guitar,ballpoint,ballpoint,ballpoint,ballpoint|remote control|computer keyboard
+ov7670,08_ballpoint/01.jpg,ballpoint,rule,ballpoint,ballpoint,ballpoint,ballpoint|remote control|computer keyboard
+clean,08_ballpoint/02.jpg,ballpoint,stethoscope,purse,purse,purse,purse|backpack|ballpoint
+ov7670,08_ballpoint/02.jpg,ballpoint,nail,purse,purse,purse,purse|backpack|tabby
+clean,08_ballpoint/03.jpg,ballpoint,ballpoint,ballpoint,ballpoint,ballpoint,ballpoint|remote control|cellular telephone
+ov7670,08_ballpoint/03.jpg,ballpoint,ballpoint,ballpoint,ballpoint,ballpoint,ballpoint|remote control|mouse
+clean,08_ballpoint/04.jpg,ballpoint,ballpoint,ballpoint,ballpoint,ballpoint,ballpoint|refrigerator|wallet
+ov7670,08_ballpoint/04.jpg,ballpoint,screwdriver,ballpoint,ballpoint,ballpoint,ballpoint|wallet|refrigerator
+clean,08_ballpoint/05.jpg,ballpoint,pencil box,laptop,laptop,laptop,laptop|computer keyboard|ballpoint
+ov7670,08_ballpoint/05.jpg,ballpoint,swab,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|ballpoint
+clean,08_ballpoint/06.jpg,ballpoint,fountain pen,ballpoint,ballpoint,ballpoint,ballpoint|backpack|pillow
+ov7670,08_ballpoint/06.jpg,ballpoint,fountain pen,ballpoint,ballpoint,ballpoint,ballpoint|pillow|backpack
+clean,08_ballpoint/07.jpg,ballpoint,pencil box,purse,purse,purse,purse|wallet|ballpoint
+ov7670,08_ballpoint/07.jpg,ballpoint,pencil box,computer keyboard,computer keyboard,computer keyboard,computer keyboard|purse|wallet
+clean,08_ballpoint/08.jpg,ballpoint,street sign,ballpoint,ballpoint,ballpoint,ballpoint|computer keyboard|purse
+ov7670,08_ballpoint/08.jpg,ballpoint,nail,ballpoint,ballpoint,ballpoint,ballpoint|wallet|purse
+clean,08_ballpoint/09.jpg,ballpoint,ballpoint,ballpoint,ballpoint,ballpoint,ballpoint|water bottle|remote control
+ov7670,08_ballpoint/09.jpg,ballpoint,wing,ballpoint,ballpoint,ballpoint,ballpoint|remote control|umbrella
+clean,08_ballpoint/10.jpg,ballpoint,rule,ballpoint,ballpoint,ballpoint,ballpoint|wallet|purse
+ov7670,08_ballpoint/10.jpg,ballpoint,nail,ballpoint,ballpoint,ballpoint,ballpoint|computer keyboard|wallet
+clean,08_ballpoint/11.jpg,ballpoint,ballpoint,ballpoint,ballpoint,ballpoint,ballpoint|laptop|mouse
+ov7670,08_ballpoint/11.jpg,ballpoint,scabbard,ballpoint,ballpoint,ballpoint,ballpoint|laptop|computer keyboard
+clean,09_cellular_telephone/00.jpg,cellular telephone,iPod,cellular telephone,cellular telephone,cellular telephone,cellular telephone|wallet|television
+ov7670,09_cellular_telephone/00.jpg,cellular telephone,iPod,wallet,cellular telephone,cellular telephone,cellular telephone|wallet|remote control
+clean,09_cellular_telephone/02.jpg,cellular telephone,remote control,remote control,remote control,remote control,remote control|cellular telephone|water bottle
+ov7670,09_cellular_telephone/02.jpg,cellular telephone,remote control,remote control,remote control,remote control,remote control|cellular telephone|computer keyboard
+clean,09_cellular_telephone/03.jpg,cellular telephone,web site,monitor,monitor,monitor,monitor|television|refrigerator
+ov7670,09_cellular_telephone/03.jpg,cellular telephone,envelope,wallet,wallet,wallet,wallet|monitor|refrigerator
+clean,09_cellular_telephone/04.jpg,cellular telephone,matchstick,television,television,television,television|monitor|table lamp
+ov7670,09_cellular_telephone/04.jpg,cellular telephone,spotlight,television,television,television,television|monitor|table lamp
+clean,09_cellular_telephone/06.jpg,cellular telephone,binder,mouse,mouse,mouse,mouse|laptop|remote control
+ov7670,09_cellular_telephone/06.jpg,cellular telephone,iPod,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|mouse
+clean,09_cellular_telephone/07.jpg,cellular telephone,iPod,cellular telephone,cellular telephone,cellular telephone,cellular telephone|monitor|remote control
+ov7670,09_cellular_telephone/07.jpg,cellular telephone,iPod,cellular telephone,cellular telephone,cellular telephone,cellular telephone|remote control|laptop
+clean,09_cellular_telephone/08.jpg,cellular telephone,hard disc,cellular telephone,cellular telephone,cellular telephone,cellular telephone|remote control|analog clock
+ov7670,09_cellular_telephone/08.jpg,cellular telephone,slide rule,analog clock,analog clock,analog clock,analog clock|cellular telephone|remote control
+clean,09_cellular_telephone/09.jpg,cellular telephone,cassette,remote control,remote control,remote control,remote control|analog clock|pop bottle
+ov7670,09_cellular_telephone/09.jpg,cellular telephone,cassette,remote control,remote control,remote control,remote control|cellular telephone|pop bottle
+clean,09_cellular_telephone/10.jpg,cellular telephone,modem,cellular telephone,wallet,wallet,wallet|cellular telephone|purse
+ov7670,09_cellular_telephone/10.jpg,cellular telephone,wallet,wallet,wallet,wallet,wallet|purse|cellular telephone
+clean,09_cellular_telephone/11.jpg,cellular telephone,sliding door,refrigerator,refrigerator,refrigerator,refrigerator|television|monitor
+ov7670,09_cellular_telephone/11.jpg,cellular telephone,sliding door,refrigerator,refrigerator,refrigerator,refrigerator|television|monitor
+clean,09_cellular_telephone/ea8506a3.jpg,cellular telephone,iPod,laptop,laptop,laptop,laptop|mouse|cellular telephone
+ov7670,09_cellular_telephone/ea8506a3.jpg,cellular telephone,iPod,laptop,laptop,laptop,laptop|wallet|mouse
+clean,09_cellular_telephone/f3d62340.jpg,cellular telephone,jellyfish,monitor,monitor,monitor,monitor|laptop|plastic bag
+ov7670,09_cellular_telephone/f3d62340.jpg,cellular telephone,jellyfish,laptop,laptop,laptop,laptop|monitor|analog clock
+clean,10_remote_control/00.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|mouse
+ov7670,10_remote_control/00.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|purse
+clean,10_remote_control/03.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|laptop
+ov7670,10_remote_control/03.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|digital watch
+clean,10_remote_control/05.jpg,remote control,lighter,remote control,remote control,remote control,remote control|ballpoint|cellular telephone
+ov7670,10_remote_control/05.jpg,remote control,remote control,remote control,remote control,remote control,remote control|ballpoint|wallet
+clean,10_remote_control/06.jpg,remote control,cellular telephone,cellular telephone,cellular telephone,cellular telephone,cellular telephone|remote control|analog clock
+ov7670,10_remote_control/06.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|computer keyboard
+clean,10_remote_control/07.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|digital watch
+ov7670,10_remote_control/07.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|digital watch
+clean,10_remote_control/08.jpg,remote control,remote control,remote control,remote control,remote control,remote control|computer keyboard|cellular telephone
+ov7670,10_remote_control/08.jpg,remote control,remote control,remote control,remote control,remote control,remote control|computer keyboard|cellular telephone
+clean,10_remote_control/09.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|pop bottle
+ov7670,10_remote_control/09.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|mouse
+clean,10_remote_control/10.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|mouse
+ov7670,10_remote_control/10.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|mouse
+clean,10_remote_control/11.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|mouse
+ov7670,10_remote_control/11.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|mouse
+clean,10_remote_control/4e7b2628.jpg,remote control,remote control,remote control,remote control,remote control,remote control|computer keyboard|cellular telephone
+ov7670,10_remote_control/4e7b2628.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|backpack
+clean,10_remote_control/a6e06f64.jpg,remote control,remote control,remote control,remote control,remote control,remote control|computer keyboard|cellular telephone
+ov7670,10_remote_control/a6e06f64.jpg,remote control,remote control,remote control,remote control,remote control,remote control|cellular telephone|computer keyboard
+clean,11_coffee_mug/00.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|teapot|water bottle
+ov7670,11_coffee_mug/00.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|teapot|water bottle
+clean,11_coffee_mug/01.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|teapot|mouse
+ov7670,11_coffee_mug/01.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|teapot|water bottle
+clean,11_coffee_mug/02.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|teapot|water bottle
+ov7670,11_coffee_mug/02.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|teapot|water bottle
+clean,11_coffee_mug/04.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|sunglasses|backpack
+ov7670,11_coffee_mug/04.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|purse|teapot
+clean,11_coffee_mug/05.jpg,coffee mug,water jug,coffee mug,coffee mug,coffee mug,coffee mug|water bottle|teapot
+ov7670,11_coffee_mug/05.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|water bottle|digital watch
+clean,11_coffee_mug/07.jpg,coffee mug,cup,coffee mug,coffee mug,coffee mug,coffee mug|teapot|remote control
+ov7670,11_coffee_mug/07.jpg,coffee mug,toilet tissue,coffee mug,coffee mug,coffee mug,coffee mug|remote control|teapot
+clean,11_coffee_mug/08.jpg,coffee mug,pencil sharpener,coffee mug,coffee mug,coffee mug,coffee mug|digital watch|analog clock
+ov7670,11_coffee_mug/08.jpg,coffee mug,toilet tissue,coffee mug,coffee mug,coffee mug,coffee mug|digital watch|purse
+clean,11_coffee_mug/09.jpg,coffee mug,rain barrel,coffee mug,coffee mug,coffee mug,coffee mug|water bottle|cellular telephone
+ov7670,11_coffee_mug/09.jpg,coffee mug,rain barrel,coffee mug,coffee mug,coffee mug,coffee mug|water bottle|pop bottle
+clean,11_coffee_mug/10.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|teapot|water bottle
+ov7670,11_coffee_mug/10.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|teapot|water bottle
+clean,11_coffee_mug/11.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|teapot|water bottle
+ov7670,11_coffee_mug/11.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|teapot|water bottle
+clean,11_coffee_mug/355b015c.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|teapot|water bottle
+ov7670,11_coffee_mug/355b015c.jpg,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|teapot|purse
+clean,12_water_bottle/00.jpg,water bottle,saltshaker,water bottle,water bottle,water bottle,water bottle|pop bottle|coffee mug
+ov7670,12_water_bottle/00.jpg,water bottle,saltshaker,water bottle,water bottle,water bottle,water bottle|ballpoint|pop bottle
+clean,12_water_bottle/01.jpg,water bottle,suit,backpack,backpack,backpack,backpack|pillow|plastic bag
+ov7670,12_water_bottle/01.jpg,water bottle,suit,backpack,backpack,backpack,backpack|pillow|Labrador retriever
+clean,12_water_bottle/02.jpg,water bottle,water bottle,water bottle,water bottle,water bottle,water bottle|pop bottle|coffee mug
+ov7670,12_water_bottle/02.jpg,water bottle,water bottle,water bottle,water bottle,water bottle,water bottle|pop bottle|coffee mug
+clean,12_water_bottle/03.jpg,water bottle,plastic bag,plastic bag,plastic bag,plastic bag,plastic bag|pillow|water bottle
+ov7670,12_water_bottle/03.jpg,water bottle,plastic bag,plastic bag,pillow,plastic bag,plastic bag|pillow|water bottle
+clean,12_water_bottle/04.jpg,water bottle,hair slide,purse,purse,purse,purse|water bottle|ballpoint
+ov7670,12_water_bottle/04.jpg,water bottle,shower cap,purse,water bottle,water bottle,water bottle|purse|wallet
+clean,12_water_bottle/05.jpg,water bottle,water bottle,water bottle,water bottle,water bottle,water bottle|pop bottle|running shoe
+ov7670,12_water_bottle/05.jpg,water bottle,water bottle,water bottle,water bottle,water bottle,water bottle|pop bottle|running shoe
+clean,12_water_bottle/06.jpg,water bottle,water bottle,water bottle,water bottle,water bottle,water bottle|pop bottle|running shoe
+ov7670,12_water_bottle/06.jpg,water bottle,water bottle,water bottle,water bottle,water bottle,water bottle|pop bottle|running shoe
+clean,12_water_bottle/07.jpg,water bottle,water bottle,water bottle,water bottle,water bottle,water bottle|pop bottle|coffee mug
+ov7670,12_water_bottle/07.jpg,water bottle,water bottle,water bottle,water bottle,water bottle,water bottle|pop bottle|pillow
+clean,12_water_bottle/09.jpg,water bottle,punching bag,water bottle,water bottle,water bottle,water bottle|ballpoint|remote control
+ov7670,12_water_bottle/09.jpg,water bottle,punching bag,water bottle,water bottle,water bottle,water bottle|mouse|remote control
+clean,12_water_bottle/3ae37b07.jpg,water bottle,water bottle,water bottle,water bottle,water bottle,water bottle|pop bottle|running shoe
+ov7670,12_water_bottle/3ae37b07.jpg,water bottle,water bottle,water bottle,water bottle,water bottle,water bottle|pop bottle|running shoe
+clean,13_pop_bottle/01fda77f.jpg,pop bottle,beer bottle,pop bottle,pop bottle,pop bottle,pop bottle|water bottle|electric fan
+ov7670,13_pop_bottle/01fda77f.jpg,pop bottle,beer glass,pop bottle,pop bottle,pop bottle,pop bottle|water bottle|table lamp
+clean,13_pop_bottle/10.jpg,pop bottle,pill bottle,pop bottle,water bottle,water bottle,water bottle|pop bottle|coffee mug
+ov7670,13_pop_bottle/10.jpg,pop bottle,pill bottle,water bottle,water bottle,water bottle,water bottle|coffee mug|wallet
+clean,13_pop_bottle/11.jpg,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle|water bottle|coffee mug
+ov7670,13_pop_bottle/11.jpg,pop bottle,lotion,water bottle,water bottle,water bottle,water bottle|pop bottle|coffee mug
+clean,13_pop_bottle/40d9bc5d.jpg,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle|water bottle|coffee mug
+ov7670,13_pop_bottle/40d9bc5d.jpg,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle|water bottle|coffee mug
+clean,13_pop_bottle/811ff873.jpg,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle|water bottle|table lamp
+ov7670,13_pop_bottle/811ff873.jpg,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle|water bottle|table lamp
+clean,13_pop_bottle/82fe7480.jpg,pop bottle,lipstick,pop bottle,pop bottle,pop bottle,pop bottle|coffee mug|water bottle
+ov7670,13_pop_bottle/82fe7480.jpg,pop bottle,lipstick,pop bottle,pop bottle,pop bottle,pop bottle|coffee mug|water bottle
+clean,13_pop_bottle/91515e74.jpg,pop bottle,packet,pop bottle,pop bottle,pop bottle,pop bottle|water bottle|coffee mug
+ov7670,13_pop_bottle/91515e74.jpg,pop bottle,packet,water bottle,pop bottle,water bottle,water bottle|pop bottle|plastic bag
+clean,13_pop_bottle/a7336b28.jpg,pop bottle,packet,pop bottle,pop bottle,pop bottle,pop bottle|wallet|laptop
+ov7670,13_pop_bottle/a7336b28.jpg,pop bottle,packet,pop bottle,pop bottle,pop bottle,pop bottle|wallet|pillow
+clean,13_pop_bottle/c0112eab.jpg,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle|water bottle|table lamp
+ov7670,13_pop_bottle/c0112eab.jpg,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle|water bottle|table lamp
+clean,13_pop_bottle/d6fba2b5.jpg,pop bottle,packet,purse,purse,purse,purse|wallet|water bottle
+ov7670,13_pop_bottle/d6fba2b5.jpg,pop bottle,packet,wallet,wallet,wallet,wallet|purse|plastic bag
+clean,13_pop_bottle/ff5e35f0.jpg,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle|water bottle|coffee mug
+ov7670,13_pop_bottle/ff5e35f0.jpg,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle,pop bottle|water bottle|coffee mug
+clean,14_computer_keyboard/01.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|mouse
+ov7670,14_computer_keyboard/01.jpg,computer keyboard,dumbbell,computer keyboard,computer keyboard,computer keyboard,computer keyboard|mouse|pop bottle
+clean,14_computer_keyboard/02.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|cellular telephone|laptop
+ov7670,14_computer_keyboard/02.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|cellular telephone|laptop
+clean,14_computer_keyboard/03.jpg,computer keyboard,space bar,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|cellular telephone
+ov7670,14_computer_keyboard/03.jpg,computer keyboard,space bar,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|cellular telephone
+clean,14_computer_keyboard/04.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|mouse
+ov7670,14_computer_keyboard/04.jpg,computer keyboard,space bar,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|mouse
+clean,14_computer_keyboard/05.jpg,computer keyboard,space bar,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|cellular telephone
+ov7670,14_computer_keyboard/05.jpg,computer keyboard,space bar,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|cellular telephone
+clean,14_computer_keyboard/06.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|mouse|laptop
+ov7670,14_computer_keyboard/06.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|mouse|digital watch
+clean,14_computer_keyboard/07.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|mouse
+ov7670,14_computer_keyboard/07.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|mouse
+clean,14_computer_keyboard/08.jpg,computer keyboard,space bar,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|remote control
+ov7670,14_computer_keyboard/08.jpg,computer keyboard,space bar,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|mouse
+clean,14_computer_keyboard/10.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|mouse|folding chair
+ov7670,14_computer_keyboard/10.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|mouse|running shoe
+clean,14_computer_keyboard/11.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|mouse
+ov7670,14_computer_keyboard/11.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|mouse
+clean,14_computer_keyboard/5c72eea6.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|backpack
+ov7670,14_computer_keyboard/5c72eea6.jpg,computer keyboard,jigsaw puzzle,computer keyboard,computer keyboard,computer keyboard,computer keyboard|analog clock|laptop
+clean,14_computer_keyboard/8bc28246.jpg,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|remote control|mouse
+ov7670,14_computer_keyboard/8bc28246.jpg,computer keyboard,slide rule,computer keyboard,computer keyboard,computer keyboard,computer keyboard|remote control|laptop
+clean,15_laptop/00.jpg,laptop,notebook,laptop,laptop,laptop,laptop|computer keyboard|cellular telephone
+ov7670,15_laptop/00.jpg,laptop,notebook,laptop,laptop,laptop,laptop|computer keyboard|cellular telephone
+clean,15_laptop/01.jpg,laptop,notebook,laptop,laptop,laptop,laptop|monitor|computer keyboard
+ov7670,15_laptop/01.jpg,laptop,notebook,laptop,laptop,laptop,laptop|monitor|computer keyboard
+clean,15_laptop/02.jpg,laptop,notebook,laptop,laptop,laptop,laptop|computer keyboard|mouse
+ov7670,15_laptop/02.jpg,laptop,notebook,laptop,laptop,laptop,laptop|computer keyboard|mouse
+clean,15_laptop/04.jpg,laptop,seashore,television,television,television,television|monitor|water bottle
+ov7670,15_laptop/04.jpg,laptop,tray,television,television,television,television|monitor|refrigerator
+clean,15_laptop/05.jpg,laptop,printer,monitor,monitor,monitor,monitor|television|laptop
+ov7670,15_laptop/05.jpg,laptop,photocopier,monitor,monitor,monitor,monitor|laptop|television
+clean,15_laptop/06.jpg,laptop,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|remote control
+ov7670,15_laptop/06.jpg,laptop,computer keyboard,computer keyboard,computer keyboard,computer keyboard,computer keyboard|laptop|remote control
+clean,15_laptop/07.jpg,laptop,laptop,laptop,laptop,laptop,laptop|computer keyboard|monitor
+ov7670,15_laptop/07.jpg,laptop,laptop,laptop,laptop,laptop,laptop|monitor|computer keyboard
+clean,15_laptop/10.jpg,laptop,tabby,tabby,tabby,tabby,tabby|computer keyboard|laptop
+ov7670,15_laptop/10.jpg,laptop,Persian cat,tabby,tabby,tabby,tabby|laptop|computer keyboard
+clean,15_laptop/11.jpg,laptop,notebook,laptop,laptop,laptop,laptop|monitor|mouse
+ov7670,15_laptop/11.jpg,laptop,desk,monitor,monitor,monitor,monitor|laptop|mouse
+clean,15_laptop/67d2de94.jpg,laptop,accordion,laptop,laptop,laptop,laptop|computer keyboard|monitor
+ov7670,15_laptop/67d2de94.jpg,laptop,organ,laptop,laptop,laptop,laptop|computer keyboard|folding chair
+clean,15_laptop/fd9dabdd.jpg,laptop,laptop,laptop,laptop,laptop,laptop|computer keyboard|mouse
+ov7670,15_laptop/fd9dabdd.jpg,laptop,slide rule,laptop,laptop,laptop,laptop|wallet|computer keyboard
+clean,16_monitor/01.jpg,monitor,police van,monitor,monitor,monitor,monitor|laptop|television
+ov7670,16_monitor/01.jpg,monitor,cassette,laptop,laptop,laptop,laptop|monitor|television
+clean,16_monitor/03.jpg,monitor,monitor,monitor,monitor,monitor,monitor|laptop|computer keyboard
+ov7670,16_monitor/03.jpg,monitor,monitor,monitor,monitor,monitor,monitor|laptop|television
+clean,16_monitor/04.jpg,monitor,desktop computer,monitor,monitor,monitor,monitor|laptop|mouse
+ov7670,16_monitor/04.jpg,monitor,CD player,television,television,television,television|laptop|monitor
+clean,16_monitor/05.jpg,monitor,monitor,monitor,monitor,monitor,monitor|television|laptop
+ov7670,16_monitor/05.jpg,monitor,monitor,monitor,monitor,monitor,monitor|television|laptop
+clean,16_monitor/06.jpg,monitor,window shade,monitor,monitor,monitor,monitor|television|electric fan
+ov7670,16_monitor/06.jpg,monitor,window shade,monitor,monitor,monitor,monitor|electric fan|wallet
+clean,16_monitor/08.jpg,monitor,stove,television,television,television,television|monitor|laptop
+ov7670,16_monitor/08.jpg,monitor,screen,television,television,television,television|computer keyboard|monitor
+clean,16_monitor/17b74109.jpg,monitor,monitor,monitor,monitor,monitor,monitor|television|laptop
+ov7670,16_monitor/17b74109.jpg,monitor,monitor,monitor,monitor,monitor,monitor|television|laptop
+clean,16_monitor/3d4544c3.jpg,monitor,screen,monitor,monitor,monitor,monitor|television|mouse
+ov7670,16_monitor/3d4544c3.jpg,monitor,screen,monitor,monitor,monitor,monitor|television|mouse
+clean,16_monitor/f4187ce3.jpg,monitor,oscilloscope,monitor,monitor,monitor,monitor|laptop|television
+ov7670,16_monitor/f4187ce3.jpg,monitor,oscilloscope,television,television,television,television|monitor|laptop
+clean,17_mouse/02.jpg,mouse,mouse,mouse,mouse,mouse,mouse|sports car|cellular telephone
+ov7670,17_mouse/02.jpg,mouse,mouse,mouse,mouse,mouse,mouse|remote control|cellular telephone
+clean,17_mouse/03.jpg,mouse,vacuum,running shoe,running shoe,running shoe,running shoe|sunglasses|remote control
+ov7670,17_mouse/03.jpg,mouse,leatherback turtle,remote control,remote control,remote control,remote control|sunglasses|mouse
+clean,17_mouse/04.jpg,mouse,mouse,mouse,mouse,mouse,mouse|sunglasses|computer keyboard
+ov7670,17_mouse/04.jpg,mouse,sandal,mouse,mouse,mouse,mouse|remote control|wallet
+clean,17_mouse/06.jpg,mouse,mouse,mouse,mouse,mouse,mouse|sunglasses|teapot
+ov7670,17_mouse/06.jpg,mouse,mouse,mouse,mouse,mouse,mouse|teapot|remote control
+clean,17_mouse/07.jpg,mouse,purse,purse,purse,purse,purse|mouse|wallet
+ov7670,17_mouse/07.jpg,mouse,mousetrap,purse,purse,purse,purse|electric fan|computer keyboard
+clean,17_mouse/08.jpg,mouse,analog clock,analog clock,analog clock,analog clock,analog clock|water bottle|pop bottle
+ov7670,17_mouse/08.jpg,mouse,pick,analog clock,analog clock,analog clock,analog clock|digital watch|water bottle
+clean,17_mouse/09.jpg,mouse,mouse,mouse,mouse,mouse,mouse|sunglasses|cellular telephone
+ov7670,17_mouse/09.jpg,mouse,mouse,mouse,mouse,mouse,mouse|remote control|sunglasses
+clean,17_mouse/10.jpg,mouse,mouse,mouse,mouse,mouse,mouse|remote control|cellular telephone
+ov7670,17_mouse/10.jpg,mouse,mouse,mouse,mouse,mouse,mouse|Granny Smith|remote control
+clean,17_mouse/11.jpg,mouse,mouse,mouse,mouse,mouse,mouse|cellular telephone|purse
+ov7670,17_mouse/11.jpg,mouse,mouse,mouse,mouse,mouse,mouse|purse|cellular telephone
+clean,17_mouse/d9517882.jpg,mouse,lighter,cellular telephone,cellular telephone,cellular telephone,cellular telephone|remote control|coffee mug
+ov7670,17_mouse/d9517882.jpg,mouse,lighter,cellular telephone,cellular telephone,cellular telephone,cellular telephone|remote control|computer keyboard
+clean,18_television/00.jpg,television,ski mask,television,television,television,television|monitor|laptop
+ov7670,18_television/00.jpg,television,suit,television,television,television,television|laptop|monitor
+clean,18_television/01.jpg,television,chest,television,television,television,television|refrigerator|teapot
+ov7670,18_television/01.jpg,television,tray,television,television,television,television|refrigerator|wallet
+clean,18_television/02.jpg,television,violin,cellular telephone,cellular telephone,cellular telephone,cellular telephone|laptop|backpack
+ov7670,18_television/02.jpg,television,seat belt,laptop,laptop,cellular telephone,cellular telephone|laptop|umbrella
+clean,18_television/03.jpg,television,toaster,television,television,television,television|digital watch|monitor
+ov7670,18_television/03.jpg,television,switch,television,television,television,television|digital watch|purse
+clean,18_television/04.jpg,television,passenger car,television,television,television,television|analog clock|sunglasses
+ov7670,18_television/04.jpg,television,turnstile,analog clock,analog clock,analog clock,analog clock|television|electric fan
+clean,18_television/05.jpg,television,television,television,television,television,television|monitor|analog clock
+ov7670,18_television/05.jpg,television,microwave,television,television,television,television|folding chair|analog clock
+clean,18_television/06.jpg,television,television,television,television,television,television|monitor|refrigerator
+ov7670,18_television/06.jpg,television,television,television,television,television,television|folding chair|refrigerator
+clean,18_television/07.jpg,television,television,television,television,television,television|mouse|monitor
+ov7670,18_television/07.jpg,television,television,television,television,television,television|mouse|purse
+clean,18_television/08.jpg,television,television,television,television,television,television|monitor|laptop
+ov7670,18_television/08.jpg,television,television,television,television,television,television|folding chair|refrigerator
+clean,18_television/09.jpg,television,china cabinet,refrigerator,refrigerator,refrigerator,refrigerator|television|pop bottle
+ov7670,18_television/09.jpg,television,china cabinet,television,television,television,television|refrigerator|wallet
+clean,18_television/10.jpg,television,television,television,television,television,television|monitor|refrigerator
+ov7670,18_television/10.jpg,television,television,television,television,television,television|folding chair|refrigerator
+clean,18_television/11.jpg,television,television,television,television,television,television|cellular telephone|digital watch
+ov7670,18_television/11.jpg,television,switch,cellular telephone,cellular telephone,cellular telephone,cellular telephone|television|digital watch
+clean,19_electric_fan/00.jpg,electric fan,nipple,table lamp,table lamp,table lamp,table lamp|electric fan|teapot
+ov7670,19_electric_fan/00.jpg,electric fan,nipple,table lamp,table lamp,table lamp,table lamp|teapot|electric fan
+clean,19_electric_fan/01.jpg,electric fan,gong,electric fan,electric fan,electric fan,electric fan|teapot|Granny Smith
+ov7670,19_electric_fan/01.jpg,electric fan,cowboy hat,teapot,teapot,teapot,teapot|electric fan|purse
+clean,19_electric_fan/02.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|backpack|purse
+ov7670,19_electric_fan/02.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|running shoe|purse
+clean,19_electric_fan/04.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|analog clock|table lamp
+ov7670,19_electric_fan/04.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|table lamp|pillow
+clean,19_electric_fan/05.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|umbrella|analog clock
+ov7670,19_electric_fan/05.jpg,electric fan,wall clock,electric fan,electric fan,electric fan,electric fan|analog clock|umbrella
+clean,19_electric_fan/06.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|table lamp|analog clock
+ov7670,19_electric_fan/06.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|table lamp|ballpoint
+clean,19_electric_fan/08.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|table lamp|analog clock
+ov7670,19_electric_fan/08.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|table lamp|purse
+clean,19_electric_fan/09.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|table lamp|analog clock
+ov7670,19_electric_fan/09.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|table lamp|analog clock
+clean,19_electric_fan/10.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|table lamp|umbrella
+ov7670,19_electric_fan/10.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|water bottle|table lamp
+clean,19_electric_fan/11.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|table lamp|teapot
+ov7670,19_electric_fan/11.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|table lamp|teapot
+clean,19_electric_fan/386d81e3.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|table lamp|mouse
+ov7670,19_electric_fan/386d81e3.jpg,electric fan,electric fan,electric fan,electric fan,electric fan,electric fan|table lamp|mouse
+clean,20_table_lamp/03.jpg,table lamp,table lamp,table lamp,table lamp,table lamp,table lamp|electric fan|umbrella
+ov7670,20_table_lamp/03.jpg,table lamp,lampshade,table lamp,table lamp,table lamp,table lamp|electric fan|computer keyboard
+clean,20_table_lamp/06.jpg,table lamp,scabbard,table lamp,table lamp,table lamp,table lamp|pop bottle|purse
+ov7670,20_table_lamp/06.jpg,table lamp,scabbard,table lamp,table lamp,table lamp,table lamp|purse|cellular telephone
+clean,20_table_lamp/07.jpg,table lamp,Chesapeake Bay retriever,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|sunglasses|plastic bag
+ov7670,20_table_lamp/07.jpg,table lamp,Great Dane,Labrador retriever,Labrador retriever,Labrador retriever,Labrador retriever|plastic bag|sunglasses
+clean,20_table_lamp/08.jpg,table lamp,soap dispenser,table lamp,table lamp,table lamp,table lamp|teapot|water bottle
+ov7670,20_table_lamp/08.jpg,table lamp,soap dispenser,table lamp,table lamp,table lamp,table lamp|teapot|water bottle
+clean,20_table_lamp/09.jpg,table lamp,syringe,ballpoint,ballpoint,ballpoint,ballpoint|water bottle|banana
+ov7670,20_table_lamp/09.jpg,table lamp,syringe,ballpoint,ballpoint,ballpoint,ballpoint|water bottle|table lamp
+clean,20_table_lamp/10.jpg,table lamp,soap dispenser,teapot,teapot,teapot,teapot|water bottle|table lamp
+ov7670,20_table_lamp/10.jpg,table lamp,soap dispenser,teapot,teapot,teapot,teapot|water bottle|table lamp
+clean,20_table_lamp/11.jpg,table lamp,strainer,digital watch,coffee mug,coffee mug,coffee mug|digital watch|analog clock
+ov7670,20_table_lamp/11.jpg,table lamp,face powder,coffee mug,coffee mug,coffee mug,coffee mug|analog clock|electric fan
+clean,20_table_lamp/873b39d7.jpg,table lamp,fountain,table lamp,table lamp,table lamp,table lamp|umbrella|electric fan
+ov7670,20_table_lamp/873b39d7.jpg,table lamp,table lamp,table lamp,table lamp,table lamp,table lamp|umbrella|electric fan
+clean,20_table_lamp/8ef037a6.jpg,table lamp,table lamp,table lamp,table lamp,table lamp,table lamp|electric fan|analog clock
+ov7670,20_table_lamp/8ef037a6.jpg,table lamp,table lamp,table lamp,table lamp,table lamp,table lamp|electric fan|purse
+clean,20_table_lamp/cfb3fb80.jpg,table lamp,coffee mug,coffee mug,coffee mug,coffee mug,coffee mug|water bottle|laptop
+ov7670,20_table_lamp/cfb3fb80.jpg,table lamp,crossword puzzle,coffee mug,pillow,pillow,pillow|coffee mug|laptop
+clean,21_folding_chair/01.jpg,folding chair,shopping cart,folding chair,folding chair,folding chair,folding chair|computer keyboard|umbrella
+ov7670,21_folding_chair/01.jpg,folding chair,waffle iron,computer keyboard,computer keyboard,folding chair,folding chair|computer keyboard|mouse
+clean,21_folding_chair/05.jpg,folding chair,folding chair,folding chair,folding chair,folding chair,folding chair|monitor|umbrella
+ov7670,21_folding_chair/05.jpg,folding chair,folding chair,folding chair,folding chair,folding chair,folding chair|umbrella|laptop
+clean,21_folding_chair/06.jpg,folding chair,drum,folding chair,folding chair,folding chair,folding chair|purse|sunglasses
+ov7670,21_folding_chair/06.jpg,folding chair,hourglass,folding chair,folding chair,folding chair,folding chair|purse|electric fan
+clean,21_folding_chair/08.jpg,folding chair,folding chair,folding chair,folding chair,folding chair,folding chair|table lamp|umbrella
+ov7670,21_folding_chair/08.jpg,folding chair,folding chair,folding chair,folding chair,folding chair,folding chair|table lamp|electric fan
+clean,21_folding_chair/10.jpg,folding chair,pretzel,folding chair,folding chair,folding chair,folding chair|computer keyboard|sunglasses
+ov7670,21_folding_chair/10.jpg,folding chair,manhole cover,folding chair,folding chair,folding chair,folding chair|computer keyboard|laptop
+clean,21_folding_chair/11.jpg,folding chair,folding chair,folding chair,folding chair,folding chair,folding chair|electric fan|backpack
+ov7670,21_folding_chair/11.jpg,folding chair,rocking chair,folding chair,folding chair,folding chair,folding chair|electric fan|table lamp
+clean,21_folding_chair/50676b72.jpg,folding chair,folding chair,folding chair,folding chair,folding chair,folding chair|television|wallet
+ov7670,21_folding_chair/50676b72.jpg,folding chair,folding chair,folding chair,folding chair,folding chair,folding chair|ballpoint|wallet
+clean,21_folding_chair/75366b59.jpg,folding chair,guillotine,wallet,wallet,wallet,wallet|table lamp|purse
+ov7670,21_folding_chair/75366b59.jpg,folding chair,guillotine,wallet,wallet,wallet,wallet|table lamp|purse
+clean,21_folding_chair/7a38f123.jpg,folding chair,folding chair,folding chair,folding chair,folding chair,folding chair|table lamp|analog clock
+ov7670,21_folding_chair/7a38f123.jpg,folding chair,rocking chair,folding chair,folding chair,folding chair,folding chair|table lamp|analog clock
+clean,21_folding_chair/ea752dc4.jpg,folding chair,rocking chair,folding chair,folding chair,folding chair,folding chair|purse|table lamp
+ov7670,21_folding_chair/ea752dc4.jpg,folding chair,rocking chair,folding chair,folding chair,folding chair,folding chair|purse|table lamp
+clean,22_pillow/00.jpg,pillow,four-poster,pillow,pillow,pillow,pillow|backpack|water bottle
+ov7670,22_pillow/00.jpg,pillow,four-poster,pillow,pillow,pillow,pillow|backpack|television
+clean,22_pillow/01.jpg,pillow,golden retriever,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|pillow
+ov7670,22_pillow/01.jpg,pillow,weasel,golden retriever,golden retriever,golden retriever,golden retriever|Labrador retriever|pillow
+clean,22_pillow/02.jpg,pillow,studio couch,pillow,pillow,pillow,pillow|plastic bag|backpack
+ov7670,22_pillow/02.jpg,pillow,bath towel,pillow,pillow,pillow,pillow|computer keyboard|backpack
+clean,22_pillow/208e0885.jpg,pillow,pillow,pillow,pillow,pillow,pillow|backpack|wallet
+ov7670,22_pillow/208e0885.jpg,pillow,Band Aid,pillow,pillow,pillow,pillow|backpack|purse
+clean,22_pillow/44c6c4e5.jpg,pillow,studio couch,pillow,pillow,pillow,pillow|purse|table lamp
+ov7670,22_pillow/44c6c4e5.jpg,pillow,studio couch,pillow,pillow,pillow,pillow|computer keyboard|laptop
+clean,23_plastic_bag/00.jpg,plastic bag,mushroom,plastic bag,plastic bag,plastic bag,plastic bag|umbrella|banana
+ov7670,23_plastic_bag/00.jpg,plastic bag,lion,plastic bag,plastic bag,plastic bag,plastic bag|umbrella|golden retriever
+clean,23_plastic_bag/02.jpg,plastic bag,backpack,backpack,backpack,backpack,backpack|purse|sunglasses
+ov7670,23_plastic_bag/02.jpg,plastic bag,backpack,backpack,backpack,backpack,backpack|purse|wallet
+clean,23_plastic_bag/03.jpg,plastic bag,plastic bag,plastic bag,plastic bag,plastic bag,plastic bag|water bottle|pillow
+ov7670,23_plastic_bag/03.jpg,plastic bag,shower cap,plastic bag,plastic bag,plastic bag,plastic bag|purse|water bottle
+clean,23_plastic_bag/04.jpg,plastic bag,plastic bag,plastic bag,plastic bag,plastic bag,plastic bag|water bottle|pillow
+ov7670,23_plastic_bag/04.jpg,plastic bag,shower curtain,plastic bag,plastic bag,plastic bag,plastic bag|water bottle|pillow
+clean,23_plastic_bag/06.jpg,plastic bag,plastic bag,plastic bag,plastic bag,plastic bag,plastic bag|pop bottle|water bottle
+ov7670,23_plastic_bag/06.jpg,plastic bag,jersey,plastic bag,plastic bag,plastic bag,plastic bag|pop bottle|water bottle
+clean,23_plastic_bag/99a63e35.jpg,plastic bag,plastic bag,plastic bag,plastic bag,plastic bag,plastic bag|pop bottle|water bottle
+ov7670,23_plastic_bag/99a63e35.jpg,plastic bag,bib,pop bottle,backpack,backpack,backpack|pop bottle|plastic bag
+clean,23_plastic_bag/a41b8448.jpg,plastic bag,sundial,electric fan,electric fan,electric fan,electric fan|pillow|plastic bag
+ov7670,23_plastic_bag/a41b8448.jpg,plastic bag,sundial,electric fan,electric fan,electric fan,electric fan|mountain bike|pillow
+clean,24_running_shoe/00.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|plastic bag|purse
+ov7670,24_running_shoe/00.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|teapot|plastic bag
+clean,24_running_shoe/01.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|purse|backpack
+ov7670,24_running_shoe/01.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|purse|tabby
+clean,24_running_shoe/02.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|wallet|purse
+ov7670,24_running_shoe/02.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|mouse|wallet
+clean,24_running_shoe/04.jpg,running shoe,chain saw,running shoe,running shoe,running shoe,running shoe|purse|plastic bag
+ov7670,24_running_shoe/04.jpg,running shoe,clog,running shoe,running shoe,running shoe,running shoe|plastic bag|purse
+clean,24_running_shoe/05.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|purse|mouse
+ov7670,24_running_shoe/05.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|purse|wallet
+clean,24_running_shoe/06.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|purse|teapot
+ov7670,24_running_shoe/06.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|computer keyboard|purse
+clean,24_running_shoe/07.jpg,running shoe,pillow,pillow,pillow,pillow,pillow|wallet|running shoe
+ov7670,24_running_shoe/07.jpg,running shoe,pillow,pillow,pillow,pillow,pillow|wallet|purse
+clean,24_running_shoe/08.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|plastic bag|backpack
+ov7670,24_running_shoe/08.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|plastic bag|purse
+clean,24_running_shoe/09.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|backpack|computer keyboard
+ov7670,24_running_shoe/09.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|backpack|purse
+clean,24_running_shoe/10.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|backpack|electric fan
+ov7670,24_running_shoe/10.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|backpack|electric fan
+clean,24_running_shoe/5fb804c5.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|purse|sports car
+ov7670,24_running_shoe/5fb804c5.jpg,running shoe,sandal,running shoe,running shoe,running shoe,running shoe|purse|sunglasses
+clean,24_running_shoe/ef9ccddc.jpg,running shoe,running shoe,running shoe,running shoe,running shoe,running shoe|purse|teapot
+ov7670,24_running_shoe/ef9ccddc.jpg,running shoe,sandal,running shoe,running shoe,running shoe,running shoe|purse|teapot
+clean,25_sunglasses/01.jpg,sunglasses,sunglasses,sunglasses,sunglasses,sunglasses,sunglasses|digital watch|running shoe
+ov7670,25_sunglasses/01.jpg,sunglasses,sunglasses,sunglasses,sunglasses,sunglasses,sunglasses|electric fan|mountain bike
+clean,25_sunglasses/02.jpg,sunglasses,sunglass,sunglasses,sunglasses,sunglasses,sunglasses|purse|running shoe
+ov7670,25_sunglasses/02.jpg,sunglasses,sunglass,sunglasses,sunglasses,sunglasses,sunglasses|purse|teapot
+clean,25_sunglasses/03.jpg,sunglasses,sunglasses,sunglasses,sunglasses,sunglasses,sunglasses|folding chair|sports car
+ov7670,25_sunglasses/03.jpg,sunglasses,binoculars,sunglasses,sunglasses,sunglasses,sunglasses|water bottle|folding chair
+clean,25_sunglasses/04.jpg,sunglasses,spindle,electric fan,sunglasses,sunglasses,sunglasses|electric fan|teapot
+ov7670,25_sunglasses/04.jpg,sunglasses,gong,sunglasses,sunglasses,sunglasses,sunglasses|electric fan|teapot
+clean,25_sunglasses/05.jpg,sunglasses,mouse,mouse,mouse,mouse,mouse|sunglasses|sports car
+ov7670,25_sunglasses/05.jpg,sunglasses,mouse,mouse,mouse,mouse,mouse|sunglasses|remote control
+clean,25_sunglasses/06.jpg,sunglasses,sandal,running shoe,running shoe,sunglasses,sunglasses|running shoe|mouse
+ov7670,25_sunglasses/06.jpg,sunglasses,screw,sunglasses,running shoe,running shoe,running shoe|sunglasses|remote control
+clean,25_sunglasses/07.jpg,sunglasses,sunglass,sunglasses,sunglasses,sunglasses,sunglasses|purse|backpack
+ov7670,25_sunglasses/07.jpg,sunglasses,sunglass,sunglasses,sunglasses,sunglasses,sunglasses|purse|wallet
+clean,25_sunglasses/08.jpg,sunglasses,patio,sunglasses,sunglasses,sunglasses,sunglasses|electric fan|analog clock
+ov7670,25_sunglasses/08.jpg,sunglasses,planetarium,electric fan,electric fan,electric fan,electric fan|table lamp|teapot
+clean,25_sunglasses/09.jpg,sunglasses,ringneck snake,running shoe,running shoe,running shoe,running shoe|sunglasses|electric fan
+ov7670,25_sunglasses/09.jpg,sunglasses,black widow,running shoe,running shoe,running shoe,running shoe|sunglasses|electric fan
+clean,25_sunglasses/10.jpg,sunglasses,bobsled,sunglasses,sunglasses,sunglasses,sunglasses|sports car|monitor
+ov7670,25_sunglasses/10.jpg,sunglasses,pool table,sunglasses,sunglasses,sunglasses,sunglasses|mouse|monitor
+clean,25_sunglasses/11.jpg,sunglasses,rhinoceros beetle,sunglasses,sunglasses,sunglasses,sunglasses|teapot|running shoe
+ov7670,25_sunglasses/11.jpg,sunglasses,ibex,sunglasses,sunglasses,sunglasses,sunglasses|teapot|coffee mug
+clean,25_sunglasses/cc592124.jpg,sunglasses,sunglasses,sunglasses,sunglasses,sunglasses,sunglasses|cellular telephone|mouse
+ov7670,25_sunglasses/cc592124.jpg,sunglasses,sunglasses,sunglasses,sunglasses,sunglasses,sunglasses|cellular telephone|mouse
+clean,26_umbrella/01.jpg,umbrella,sundial,electric fan,electric fan,electric fan,electric fan|umbrella|table lamp
+ov7670,26_umbrella/01.jpg,umbrella,sundial,electric fan,electric fan,electric fan,electric fan|umbrella|table lamp
+clean,26_umbrella/02.jpg,umbrella,sandal,running shoe,running shoe,running shoe,running shoe|remote control|water bottle
+ov7670,26_umbrella/02.jpg,umbrella,sandal,running shoe,running shoe,running shoe,running shoe|remote control|water bottle
+clean,26_umbrella/06.jpg,umbrella,shopping cart,electric fan,umbrella,umbrella,umbrella|electric fan|wallet
+ov7670,26_umbrella/06.jpg,umbrella,plate rack,electric fan,electric fan,electric fan,electric fan|folding chair|umbrella
+clean,26_umbrella/07.jpg,umbrella,disk brake,electric fan,electric fan,electric fan,electric fan|umbrella|plastic bag
+ov7670,26_umbrella/07.jpg,umbrella,harvestman,electric fan,electric fan,electric fan,electric fan|umbrella|analog clock
+clean,26_umbrella/08.jpg,umbrella,umbrella,umbrella,umbrella,umbrella,umbrella|purse|table lamp
+ov7670,26_umbrella/08.jpg,umbrella,umbrella,umbrella,umbrella,umbrella,umbrella|purse|table lamp
+clean,26_umbrella/09.jpg,umbrella,umbrella,umbrella,umbrella,umbrella,umbrella|folding chair|backpack
+ov7670,26_umbrella/09.jpg,umbrella,umbrella,umbrella,umbrella,umbrella,umbrella|purse|pillow
+clean,26_umbrella/10.jpg,umbrella,vault,umbrella,umbrella,umbrella,umbrella|plastic bag|mountain bike
+ov7670,26_umbrella/10.jpg,umbrella,vault,umbrella,umbrella,umbrella,umbrella|plastic bag|mountain bike
+clean,26_umbrella/181c7a47.jpg,umbrella,bannister,umbrella,umbrella,umbrella,umbrella|analog clock|water bottle
+ov7670,26_umbrella/181c7a47.jpg,umbrella,fire screen,umbrella,umbrella,analog clock,analog clock|umbrella|backpack
+clean,26_umbrella/2c15e98a.jpg,umbrella,umbrella,umbrella,umbrella,umbrella,umbrella|sunglasses|backpack
+ov7670,26_umbrella/2c15e98a.jpg,umbrella,giant schnauzer,umbrella,umbrella,umbrella,umbrella|electric fan|analog clock
+clean,26_umbrella/534861ef.jpg,umbrella,spider web,umbrella,umbrella,umbrella,umbrella|wallet|laptop
+ov7670,26_umbrella/534861ef.jpg,umbrella,window screen,wallet,wallet,wallet,wallet|computer keyboard|umbrella
+clean,26_umbrella/a92fbce7.jpg,umbrella,passenger car,umbrella,umbrella,umbrella,umbrella|analog clock|pop bottle
+ov7670,26_umbrella/a92fbce7.jpg,umbrella,balloon,umbrella,umbrella,umbrella,umbrella|wallet|plastic bag
+clean,27_refrigerator/00.jpg,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator|television|monitor
+ov7670,27_refrigerator/00.jpg,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator|television|electric fan
+clean,27_refrigerator/02.jpg,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator|monitor|pop bottle
+ov7670,27_refrigerator/02.jpg,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator|pop bottle|television
+clean,27_refrigerator/03.jpg,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator|folding chair|electric fan
+ov7670,27_refrigerator/03.jpg,refrigerator,photocopier,refrigerator,refrigerator,refrigerator,refrigerator|folding chair|television
+clean,27_refrigerator/04.jpg,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator|pop bottle|plastic bag
+ov7670,27_refrigerator/04.jpg,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator|pop bottle|plastic bag
+clean,27_refrigerator/05.jpg,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator|folding chair|television
+ov7670,27_refrigerator/05.jpg,refrigerator,file,refrigerator,refrigerator,refrigerator,refrigerator|folding chair|wallet
+clean,27_refrigerator/06.jpg,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator|monitor|laptop
+ov7670,27_refrigerator/06.jpg,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator|computer keyboard|laptop
+clean,27_refrigerator/09.jpg,refrigerator,cash machine,refrigerator,refrigerator,refrigerator,refrigerator|laptop|computer keyboard
+ov7670,27_refrigerator/09.jpg,refrigerator,Band Aid,wallet,wallet,wallet,wallet|computer keyboard|laptop
+clean,27_refrigerator/10.jpg,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator,refrigerator|television|monitor
+ov7670,27_refrigerator/10.jpg,refrigerator,file,refrigerator,refrigerator,refrigerator,refrigerator|television|folding chair
+clean,27_refrigerator/11.jpg,refrigerator,microwave,television,television,television,television|refrigerator|monitor
+ov7670,27_refrigerator/11.jpg,refrigerator,microwave,television,television,television,television|refrigerator|mouse
+clean,27_refrigerator/3e3b4829.jpg,refrigerator,wardrobe,refrigerator,refrigerator,refrigerator,refrigerator|television|electric fan
+ov7670,27_refrigerator/3e3b4829.jpg,refrigerator,wardrobe,refrigerator,refrigerator,refrigerator,refrigerator|electric fan|television
+clean,27_refrigerator/ab8e8abb.jpg,refrigerator,binder,refrigerator,refrigerator,refrigerator,refrigerator|ballpoint|television
+ov7670,27_refrigerator/ab8e8abb.jpg,refrigerator,guillotine,refrigerator,refrigerator,refrigerator,refrigerator|ballpoint|table lamp
+clean,28_teapot/00.jpg,teapot,teapot,teapot,teapot,teapot,teapot|coffee mug|purse
+ov7670,28_teapot/00.jpg,teapot,teapot,teapot,teapot,teapot,teapot|purse|coffee mug
+clean,28_teapot/01.jpg,teapot,teapot,teapot,teapot,teapot,teapot|water bottle|running shoe
+ov7670,28_teapot/01.jpg,teapot,pitcher,teapot,teapot,teapot,teapot|purse|water bottle
+clean,28_teapot/02.jpg,teapot,vase,teapot,teapot,teapot,teapot|table lamp|purse
+ov7670,28_teapot/02.jpg,teapot,mortar,teapot,teapot,teapot,teapot|table lamp|purse
+clean,28_teapot/06.jpg,teapot,teapot,teapot,teapot,teapot,teapot|purse|table lamp
+ov7670,28_teapot/06.jpg,teapot,teapot,teapot,teapot,teapot,teapot|purse|table lamp
+clean,28_teapot/07.jpg,teapot,teapot,teapot,teapot,teapot,teapot|coffee mug|water bottle
+ov7670,28_teapot/07.jpg,teapot,teapot,teapot,teapot,teapot,teapot|coffee mug|purse
+clean,28_teapot/08.jpg,teapot,teapot,teapot,teapot,teapot,teapot|purse|plastic bag
+ov7670,28_teapot/08.jpg,teapot,teapot,teapot,teapot,teapot,teapot|purse|banana
+clean,28_teapot/09.jpg,teapot,teapot,teapot,teapot,teapot,teapot|coffee mug|purse
+ov7670,28_teapot/09.jpg,teapot,teapot,teapot,teapot,teapot,teapot|coffee mug|purse
+clean,28_teapot/12ce3d21.jpg,teapot,teapot,teapot,teapot,teapot,teapot|coffee mug|plastic bag
+ov7670,28_teapot/12ce3d21.jpg,teapot,teapot,teapot,teapot,teapot,teapot|coffee mug|plastic bag
+clean,28_teapot/1a49cc7b.jpg,teapot,teapot,teapot,teapot,teapot,teapot|purse|plastic bag
+ov7670,28_teapot/1a49cc7b.jpg,teapot,teapot,teapot,teapot,teapot,teapot|purse|coffee mug
+clean,28_teapot/5c4d05a8.jpg,teapot,teapot,teapot,teapot,teapot,teapot|coffee mug|sunglasses
+ov7670,28_teapot/5c4d05a8.jpg,teapot,teapot,teapot,teapot,teapot,teapot|coffee mug|purse
+clean,28_teapot/86d52ceb.jpg,teapot,teapot,teapot,teapot,teapot,teapot|coffee mug|plastic bag
+ov7670,28_teapot/86d52ceb.jpg,teapot,teapot,teapot,teapot,teapot,teapot|coffee mug|purse
+clean,28_teapot/a9143857.jpg,teapot,mixing bowl,teapot,teapot,teapot,teapot|coffee mug|sunglasses
+ov7670,28_teapot/a9143857.jpg,teapot,teapot,teapot,teapot,teapot,teapot|coffee mug|sunglasses
+clean,29_mountain_bike/01.jpg,mountain bike,bicycle-built-for-two,mountain bike,mountain bike,mountain bike,mountain bike|sunglasses|sports car
+ov7670,29_mountain_bike/01.jpg,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike|electric fan|sunglasses
+clean,29_mountain_bike/02.jpg,mountain bike,bicycle-built-for-two,mountain bike,mountain bike,mountain bike,mountain bike|backpack|electric fan
+ov7670,29_mountain_bike/02.jpg,mountain bike,bicycle-built-for-two,mountain bike,mountain bike,mountain bike,mountain bike|electric fan|sunglasses
+clean,29_mountain_bike/03.jpg,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike|sunglasses|folding chair
+ov7670,29_mountain_bike/03.jpg,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike|sunglasses|folding chair
+clean,29_mountain_bike/05.jpg,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike|umbrella|water bottle
+ov7670,29_mountain_bike/05.jpg,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike|umbrella|folding chair
+clean,29_mountain_bike/07.jpg,mountain bike,stretcher,refrigerator,folding chair,folding chair,folding chair|refrigerator|sunglasses
+ov7670,29_mountain_bike/07.jpg,mountain bike,oxcart,folding chair,folding chair,folding chair,folding chair|mountain bike|electric fan
+clean,29_mountain_bike/08.jpg,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike|sports car|sunglasses
+ov7670,29_mountain_bike/08.jpg,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike,mountain bike|sports car|electric fan
+clean,30_sports_car/00.jpg,sports car,ambulance,sports car,sports car,sports car,sports car|sunglasses|teapot
+ov7670,30_sports_car/00.jpg,sports car,garbage truck,sports car,sports car,sports car,sports car|purse|backpack
+clean,30_sports_car/01.jpg,sports car,beach wagon,sports car,sports car,sports car,sports car|analog clock|sunglasses
+ov7670,30_sports_car/01.jpg,sports car,convertible,sports car,sports car,sports car,sports car|analog clock|running shoe
+clean,30_sports_car/02.jpg,sports car,racer,sports car,sports car,sports car,sports car|mountain bike|running shoe
+ov7670,30_sports_car/02.jpg,sports car,racer,sports car,sports car,sports car,sports car|running shoe|purse
+clean,30_sports_car/03.jpg,sports car,convertible,sports car,sports car,sports car,sports car|mouse|monitor
+ov7670,30_sports_car/03.jpg,sports car,limousine,sports car,sports car,sports car,sports car|mouse|television
+clean,30_sports_car/04.jpg,sports car,bathing cap,sunglasses,sunglasses,sunglasses,sunglasses|laptop|cellular telephone
+ov7670,30_sports_car/04.jpg,sports car,bathing cap,sunglasses,sunglasses,sunglasses,sunglasses|laptop|cellular telephone
+clean,30_sports_car/05.jpg,sports car,convertible,sports car,sports car,sports car,sports car|mountain bike|backpack
+ov7670,30_sports_car/05.jpg,sports car,sports car,sports car,sports car,sports car,sports car|running shoe|electric fan
+clean,30_sports_car/06.jpg,sports car,sports car,sports car,sports car,sports car,sports car|mountain bike|sunglasses
+ov7670,30_sports_car/06.jpg,sports car,sports car,sports car,sports car,sports car,sports car|mountain bike|sunglasses
+clean,30_sports_car/07.jpg,sports car,jeep,tabby,tabby,tabby,tabby|mountain bike|sports car
+ov7670,30_sports_car/07.jpg,sports car,lawn mower,tabby,mountain bike,mountain bike,mountain bike|tabby|sports car
+clean,30_sports_car/08.jpg,sports car,minivan,sports car,sports car,sports car,sports car|refrigerator|mouse
+ov7670,30_sports_car/08.jpg,sports car,carpenter's kit,sports car,sports car,sports car,sports car|remote control|running shoe
+clean,30_sports_car/09.jpg,sports car,convertible,sports car,sports car,sports car,sports car|refrigerator|electric fan
+ov7670,30_sports_car/09.jpg,sports car,convertible,sports car,sports car,sports car,sports car|refrigerator|electric fan
+clean,30_sports_car/10.jpg,sports car,racer,sports car,sports car,sports car,sports car|purse|analog clock
+ov7670,30_sports_car/10.jpg,sports car,racer,sports car,sports car,sports car,sports car|purse|wallet
+clean,30_sports_car/11.jpg,sports car,racer,sports car,sports car,sports car,sports car|electric fan|sunglasses
+ov7670,30_sports_car/11.jpg,sports car,racer,sports car,sports car,sports car,sports car|sunglasses|umbrella
+clean,31_Granny_Smith/00.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|teapot
+ov7670,31_Granny_Smith/00.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|teapot
+clean,31_Granny_Smith/02.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|teapot
+ov7670,31_Granny_Smith/02.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|teapot
+clean,31_Granny_Smith/03.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|analog clock
+ov7670,31_Granny_Smith/03.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|teapot
+clean,31_Granny_Smith/06.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|teapot|coffee mug
+ov7670,31_Granny_Smith/06.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|teapot|coffee mug
+clean,31_Granny_Smith/07.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|pop bottle
+ov7670,31_Granny_Smith/07.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|pop bottle
+clean,31_Granny_Smith/08.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|teapot
+ov7670,31_Granny_Smith/08.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|mouse
+clean,31_Granny_Smith/09.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|teapot
+ov7670,31_Granny_Smith/09.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|pop bottle
+clean,31_Granny_Smith/10.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|teapot|banana
+ov7670,31_Granny_Smith/10.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|teapot|banana
+clean,31_Granny_Smith/11.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|pop bottle
+ov7670,31_Granny_Smith/11.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|pop bottle
+clean,31_Granny_Smith/71f94e1d.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|teapot
+ov7670,31_Granny_Smith/71f94e1d.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|teapot
+clean,31_Granny_Smith/abf9151d.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|pop bottle
+ov7670,31_Granny_Smith/abf9151d.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|mouse
+clean,31_Granny_Smith/dc554e42.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|computer keyboard
+ov7670,31_Granny_Smith/dc554e42.jpg,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith,Granny Smith|banana|computer keyboard
+clean,32_banana/00.jpg,banana,banana,banana,banana,banana,banana|Granny Smith|teapot
+ov7670,32_banana/00.jpg,banana,banana,banana,banana,banana,banana|Granny Smith|computer keyboard
+clean,32_banana/01.jpg,banana,banana,banana,banana,banana,banana|teapot|coffee mug
+ov7670,32_banana/01.jpg,banana,banana,banana,banana,banana,banana|teapot|coffee mug
+clean,32_banana/02.jpg,banana,pot,banana,banana,banana,banana|Granny Smith|pillow
+ov7670,32_banana/02.jpg,banana,green mamba,banana,banana,banana,banana|Granny Smith|pillow
+clean,32_banana/03.jpg,banana,slug,banana,banana,banana,banana|teapot|Granny Smith
+ov7670,32_banana/03.jpg,banana,slug,banana,banana,banana,banana|Granny Smith|tabby
+clean,32_banana/04.jpg,banana,banana,banana,banana,banana,banana|Granny Smith|coffee mug
+ov7670,32_banana/04.jpg,banana,carbonara,banana,banana,banana,banana|Granny Smith|coffee mug
+clean,32_banana/05.jpg,banana,banana,banana,banana,banana,banana|Granny Smith|teapot
+ov7670,32_banana/05.jpg,banana,artichoke,banana,banana,banana,banana|Granny Smith|pillow
+clean,32_banana/06.jpg,banana,banana,banana,banana,banana,banana|teapot|pillow
+ov7670,32_banana/06.jpg,banana,banana,banana,banana,banana,banana|teapot|pillow
+clean,32_banana/07.jpg,banana,lemon,banana,banana,banana,banana|umbrella|Granny Smith
+ov7670,32_banana/07.jpg,banana,pot,Granny Smith,Granny Smith,Granny Smith,Granny Smith|pillow|plastic bag
+clean,32_banana/462446f8.jpg,banana,banana,banana,banana,banana,banana|teapot|Granny Smith
+ov7670,32_banana/462446f8.jpg,banana,banana,banana,banana,banana,banana|Granny Smith|teapot
+clean,32_banana/4fa3d314.jpg,banana,banana,banana,banana,banana,banana|Granny Smith|teapot
+ov7670,32_banana/4fa3d314.jpg,banana,banana,banana,banana,banana,banana|Granny Smith|teapot
+clean,32_banana/d1774d4f.jpg,banana,banana,banana,banana,banana,banana|Granny Smith|teapot
+ov7670,32_banana/d1774d4f.jpg,banana,head cabbage,banana,banana,banana,banana|Granny Smith|teapot

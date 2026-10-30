@@ -1,0 +1,110 @@
+Memory plan (act_mem words):
+  CAM   words     0.. 9575    1 ch x 57 rows x 672 px  plain  rs=168 cs=9576
+  POOL1 words  9600..13183   64 ch x  4 rows x  55 px  plain  rs=14 cs=56
+  S2    words 26368..40959   16 ch x 55 rows x  55 px  padded rs=16 cs=912
+  S3    words     0..14591   16 ch x 55 rows x  55 px  padded rs=16 cs=912
+  E2    words 14592..23551  128 ch x  5 rows x  55 px  plain  rs=14 cs=70
+  P3    words 14592..38783  128 ch x 27 rows x  27 px  plain  rs=7 cs=189
+  S4    words     0.. 8351   32 ch x 27 rows x  27 px  padded rs=9 cs=261
+  E4    words  8352..24479  256 ch x  9 rows x  27 px  plain  rs=7 cs=63
+  S5    words 24480..32831   32 ch x 27 rows x  27 px  padded rs=9 cs=261
+  P5    words     0..13311  256 ch x 13 rows x  13 px  plain  rs=4 cs=52
+  S6    words 13312..17631   48 ch x 13 rows x  13 px  padded rs=6 cs=90
+  C6    words 17632..37599  384 ch x 13 rows x  13 px  plain  rs=4 cs=52
+  S7    words     0.. 4319   48 ch x 13 rows x  13 px  padded rs=6 cs=90
+  C7    words 20992..40959  384 ch x 13 rows x  13 px  plain  rs=4 cs=52
+  S8    words     0.. 5759   64 ch x 13 rows x  13 px  padded rs=6 cs=90
+  C8    words  5760..32383  512 ch x 13 rows x  13 px  plain  rs=4 cs=52
+  S9    words     0.. 5759   64 ch x 13 rows x  13 px  padded rs=6 cs=90
+  C9    words  5760..32383  512 ch x 13 rows x  13 px  plain  rs=4 cs=52
+  CLS   words 32384..34255   36 ch x 13 rows x  13 px  plain  rs=4 cs=52
+
+Jobs:
+job   0: net.features.0               k=  27 passes= 16 rows  0+9  -> POOL1 +pool wait cam 19
+job   1: net.features.3.squeeze       k=  64 passes=  4 rows  0+4  -> S2 fill
+job   2: net.features.0               k=  27 passes= 16 rows  0+9  -> POOL1 +pool wait cam 35
+job   3: net.features.3.squeeze       k=  64 passes=  4 rows  4+4  -> S2
+job   4: net.features.0               k=  27 passes= 16 rows  0+9  -> POOL1 +pool wait cam 51
+job   5: net.features.3.squeeze       k=  64 passes=  4 rows  8+4  -> S2
+job   6: net.features.0               k=  27 passes= 16 rows  0+9  -> POOL1 +pool wait cam 67
+job   7: net.features.3.squeeze       k=  64 passes=  4 rows 12+4  -> S2
+job   8: net.features.0               k=  27 passes= 16 rows  0+9  -> POOL1 +pool wait cam 83
+job   9: net.features.3.squeeze       k=  64 passes=  4 rows 16+4  -> S2
+job  10: net.features.0               k=  27 passes= 16 rows  0+9  -> POOL1 +pool wait cam 99
+job  11: net.features.3.squeeze       k=  64 passes=  4 rows 20+4  -> S2
+job  12: net.features.0               k=  27 passes= 16 rows  0+9  -> POOL1 +pool wait cam 115
+job  13: net.features.3.squeeze       k=  64 passes=  4 rows 24+4  -> S2
+job  14: net.features.0               k=  27 passes= 16 rows  0+9  -> POOL1 +pool wait cam 131
+job  15: net.features.3.squeeze       k=  64 passes=  4 rows 28+4  -> S2
+job  16: net.features.0               k=  27 passes= 16 rows  0+9  -> POOL1 +pool wait cam 147
+job  17: net.features.3.squeeze       k=  64 passes=  4 rows 32+4  -> S2
+job  18: net.features.0               k=  27 passes= 16 rows  0+9  -> POOL1 +pool wait cam 163
+job  19: net.features.3.squeeze       k=  64 passes=  4 rows 36+4  -> S2
+job  20: net.features.0               k=  27 passes= 16 rows  0+9  -> POOL1 +pool wait cam 179
+job  21: net.features.3.squeeze       k=  64 passes=  4 rows 40+4  -> S2
+job  22: net.features.0               k=  27 passes= 16 rows  0+9  -> POOL1 +pool wait cam 195
+job  23: net.features.3.squeeze       k=  64 passes=  4 rows 44+4  -> S2
+job  24: net.features.0               k=  27 passes= 16 rows  0+9  -> POOL1 +pool wait cam 211
+job  25: net.features.3.squeeze       k=  64 passes=  4 rows 48+4  -> S2
+job  26: net.features.0               k=  27 passes= 16 rows  0+7  -> POOL1 +pool wait cam 223
+job  27: net.features.3.squeeze       k=  64 passes=  4 rows 52+3  -> S2
+job  28: net.features.3.expand1x1     k=  16 passes= 16 rows  0+5  -> E2
+job  29: net.features.3.expand3x3     k= 144 passes= 16 rows  0+5  -> E2 oc_off 64
+job  30: net.features.4.squeeze       k= 128 passes=  4 rows  0+5  -> S3 fill
+job  31: net.features.3.expand1x1     k=  16 passes= 16 rows  0+5  -> E2
+job  32: net.features.3.expand3x3     k= 144 passes= 16 rows  0+5  -> E2 oc_off 64
+job  33: net.features.4.squeeze       k= 128 passes=  4 rows  5+5  -> S3
+job  34: net.features.3.expand1x1     k=  16 passes= 16 rows  0+5  -> E2
+job  35: net.features.3.expand3x3     k= 144 passes= 16 rows  0+5  -> E2 oc_off 64
+job  36: net.features.4.squeeze       k= 128 passes=  4 rows 10+5  -> S3
+job  37: net.features.3.expand1x1     k=  16 passes= 16 rows  0+5  -> E2
+job  38: net.features.3.expand3x3     k= 144 passes= 16 rows  0+5  -> E2 oc_off 64
+job  39: net.features.4.squeeze       k= 128 passes=  4 rows 15+5  -> S3
+job  40: net.features.3.expand1x1     k=  16 passes= 16 rows  0+5  -> E2
+job  41: net.features.3.expand3x3     k= 144 passes= 16 rows  0+5  -> E2 oc_off 64
+job  42: net.features.4.squeeze       k= 128 passes=  4 rows 20+5  -> S3
+job  43: net.features.3.expand1x1     k=  16 passes= 16 rows  0+5  -> E2
+job  44: net.features.3.expand3x3     k= 144 passes= 16 rows  0+5  -> E2 oc_off 64
+job  45: net.features.4.squeeze       k= 128 passes=  4 rows 25+5  -> S3
+job  46: net.features.3.expand1x1     k=  16 passes= 16 rows  0+5  -> E2
+job  47: net.features.3.expand3x3     k= 144 passes= 16 rows  0+5  -> E2 oc_off 64
+job  48: net.features.4.squeeze       k= 128 passes=  4 rows 30+5  -> S3
+job  49: net.features.3.expand1x1     k=  16 passes= 16 rows  0+5  -> E2
+job  50: net.features.3.expand3x3     k= 144 passes= 16 rows  0+5  -> E2 oc_off 64
+job  51: net.features.4.squeeze       k= 128 passes=  4 rows 35+5  -> S3
+job  52: net.features.3.expand1x1     k=  16 passes= 16 rows  0+5  -> E2
+job  53: net.features.3.expand3x3     k= 144 passes= 16 rows  0+5  -> E2 oc_off 64
+job  54: net.features.4.squeeze       k= 128 passes=  4 rows 40+5  -> S3
+job  55: net.features.3.expand1x1     k=  16 passes= 16 rows  0+5  -> E2
+job  56: net.features.3.expand3x3     k= 144 passes= 16 rows  0+5  -> E2 oc_off 64
+job  57: net.features.4.squeeze       k= 128 passes=  4 rows 45+5  -> S3
+job  58: net.features.3.expand1x1     k=  16 passes= 16 rows  0+5  -> E2
+job  59: net.features.3.expand3x3     k= 144 passes= 16 rows  0+5  -> E2 oc_off 64
+job  60: net.features.4.squeeze       k= 128 passes=  4 rows 50+5  -> S3
+job  61: net.features.4.expand1x1     k=  16 passes= 16 rows  0+55 -> P3 +pool
+job  62: net.features.4.expand3x3     k= 144 passes= 16 rows  0+55 -> P3 +pool oc_off 64
+job  63: net.features.6.squeeze       k= 128 passes=  8 rows  0+27 -> S4 fill
+job  64: net.features.6.expand1x1     k=  32 passes= 32 rows  0+9  -> E4
+job  65: net.features.6.expand3x3     k= 288 passes= 32 rows  0+9  -> E4 oc_off 128 (weights in 2 loads)
+job  66: net.features.7.squeeze       k= 256 passes=  8 rows  0+9  -> S5 fill
+job  67: net.features.6.expand1x1     k=  32 passes= 32 rows  0+9  -> E4
+job  68: net.features.6.expand3x3     k= 288 passes= 32 rows  0+9  -> E4 oc_off 128 (weights in 2 loads)
+job  69: net.features.7.squeeze       k= 256 passes=  8 rows  9+9  -> S5
+job  70: net.features.6.expand1x1     k=  32 passes= 32 rows  0+9  -> E4
+job  71: net.features.6.expand3x3     k= 288 passes= 32 rows  0+9  -> E4 oc_off 128 (weights in 2 loads)
+job  72: net.features.7.squeeze       k= 256 passes=  8 rows 18+9  -> S5
+job  73: net.features.7.expand1x1     k=  32 passes= 32 rows  0+27 -> P5 +pool
+job  74: net.features.7.expand3x3     k= 288 passes= 32 rows  0+27 -> P5 +pool oc_off 128 (weights in 2 loads)
+job  75: net.features.9.squeeze       k= 256 passes= 12 rows  0+13 -> S6 fill
+job  76: net.features.9.expand1x1     k=  48 passes= 48 rows  0+13 -> C6
+job  77: net.features.9.expand3x3     k= 432 passes= 48 rows  0+13 -> C6 oc_off 192 (weights in 3 loads)
+job  78: net.features.10.squeeze      k= 384 passes= 12 rows  0+13 -> S7 fill
+job  79: net.features.10.expand1x1    k=  48 passes= 48 rows  0+13 -> C7
+job  80: net.features.10.expand3x3    k= 432 passes= 48 rows  0+13 -> C7 oc_off 192 (weights in 3 loads)
+job  81: net.features.11.squeeze      k= 384 passes= 16 rows  0+13 -> S8 fill
+job  82: net.features.11.expand1x1    k=  64 passes= 64 rows  0+13 -> C8
+job  83: net.features.11.expand3x3    k= 576 passes= 64 rows  0+13 -> C8 oc_off 256 (weights in 5 loads)
+job  84: net.features.12.squeeze      k= 512 passes= 16 rows  0+13 -> S9 fill (weights in 2 loads)
+job  85: net.features.12.expand1x1    k=  64 passes= 64 rows  0+13 -> C9
+job  86: net.features.12.expand3x3    k= 576 passes= 64 rows  0+13 -> C9 oc_off 256 (weights in 5 loads)
+job  87: net.classifier.1             k= 512 passes=  9 rows  0+13 -> CLS
