@@ -11,7 +11,7 @@ TB_DIR := tb
 INCLUDES := -I$(RTL_DIR) -I$(TB_DIR)
 
 .DEFAULT_GOAL := sim
-.PHONY: help sim unit conv_default conv_b2 conv_depth5 conv_b2_depth5 shufflenet_real shufflenet_conv1 maxpool system_sqz system_cam fpga_full model sqz_data all clean
+.PHONY: help sim unit conv_default conv_b2 conv_depth5 conv_b2_depth5 shufflenet_real shufflenet_conv1 maxpool system_sqz system_cam fpga_full cam_vga model sqz_data all clean
 
 help:
 	@echo "Targets:"
@@ -91,10 +91,16 @@ model:
 
 fpga_full:
 	@mkdir -p $(OUT)/fpga_full logs
-	@$(VERILATOR) $(FLAGS) -j 0 --top-module tb_fpga_full -f filelist_system.f rtl/fpga/spi_boot_master.sv rtl/fpga/fpga_top.sv tb/tb_fpga_full.sv $(INCLUDES) -Mdir $(OUT)/fpga_full -o sim > $(OUT)/fpga_full/build.log 2>&1 || (grep %Error $(OUT)/fpga_full/build.log; exit 1)
+	@$(VERILATOR) $(FLAGS) -j 0 --top-module tb_fpga_full -f filelist_system.f rtl/fpga/spi_boot_master.sv rtl/fpga/ov7670_sccb_init.sv rtl/fpga/ov7670_capture.sv rtl/fpga/frame_buffer.sv rtl/fpga/vga_display.sv rtl/fpga/fpga_top.sv tb/tb_fpga_full.sv $(INCLUDES) -Mdir $(OUT)/fpga_full -o sim > $(OUT)/fpga_full/build.log 2>&1 || (grep %Error $(OUT)/fpga_full/build.log; exit 1)
 	@echo "== tb_fpga_full (log: logs/fpga_full.log) =="
 	@$(OUT)/fpga_full/sim $(PLUSARGS) > logs/fpga_full.log 2>&1 || true
-	@grep -E "boot master|inference done|differ|result pins|overrun|VERDICT|TIMEOUT" logs/fpga_full.log || true
+	@grep -E "configured|boot master|inference done|differ|result pins|overrun|VERDICT|TIMEOUT" logs/fpga_full.log || true
+
+cam_vga:
+	@mkdir -p $(OUT)/cam_vga
+	@$(VERILATOR) $(FLAGS) -j 0 --top-module tb_cam_vga rtl/fpga/ov7670_sccb_init.sv rtl/fpga/ov7670_capture.sv rtl/fpga/frame_buffer.sv rtl/fpga/vga_display.sv rtl/fpga/cam_vga_test_top.sv tb/tb_cam_vga.sv -Mdir $(OUT)/cam_vga -o sim > $(OUT)/cam_vga/build.log 2>&1 || (grep %Error $(OUT)/cam_vga/build.log; exit 1)
+	@echo "== tb_cam_vga =="
+	@$(OUT)/cam_vga/sim | grep -E "SCCB done|frame buffer|VGA:|VERDICT" 
 
 sqz_data:
 	python3 scripts/gen_sqz_fire2.py

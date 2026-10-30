@@ -1,0 +1,9 @@
+== tb_fpga_full (log: logs/fpga_full.log) ==
+[1.454 ms] camera configured over SCCB (145409 cycles)
+[13.493 ms] boot master finished the descriptors, SoC started (1349313 cycles)
+  VGA frame buffer vs camera frame   : 0 / 76800 pixels differ
+[252.136 ms] inference done after 25213657 cycles (252.1 ms at 100 MHz)
+  classifier maps vs bit-exact model : 0 / 1872 words differ
+  result pins 11 (valid 1), boot master read over SPI: class 11 valid 1, golden 11
+  camera overrun 0, STATUS traps 0
+-> VERDICT: SUCCESS (full SqueezeNet on fpga_top: SPI boot, camera, flash weights, class 11)

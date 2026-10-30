@@ -102,4 +102,8 @@ rtl/sys_csr.sv
 rtl/sys_controller.sv
 rtl/accelerator_top.sv
 rtl/fpga/spi_boot_master.sv
+rtl/fpga/ov7670_sccb_init.sv
+rtl/fpga/ov7670_capture.sv
+rtl/fpga/frame_buffer.sv
+rtl/fpga/vga_display.sv
 rtl/fpga/fpga_top.sv

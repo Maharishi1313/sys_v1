@@ -18,25 +18,31 @@ module tb_fpga_full;
     localparam string D = "build/sqz_custom/";
     localparam int CAM_W = 320, CAM_H = 240;
 
-    logic clk = 0, rst_btn = 1;
+    logic clk = 0, cpu_resetn = 0;
     always #5 clk = ~clk;                                  // 100 MHz
 
     logic       cam_pclk = 0, pclk_en = 0, cam_vsync = 0, cam_href = 0;
     logic [7:0] cam_d = 0;
-    wire        cam_xclk, cam_pwdn, flash_sck, flash_cs_n, host_irq;
-    wire [3:0]  flash_io;
-    wire [7:0]  led;
-    wire [6:0]  result_o;
+    wire        cam_xclk, cam_pwdn, cam_reset_n, cam_sioc, flash_sck, flash_cs_n;
+    wire        cam_siod;
+    wire [3:0]  flash_io, vga_r, vga_g, vga_b;
+    wire        vga_hs, vga_vs;
+    wire [15:0] led;
+    wire [6:0]  result_o = dut.result_o;
+    pullup (cam_siod);
     pullup (flash_io[2]);
     pullup (flash_io[3]);
     always #100 if (pclk_en) cam_pclk = ~cam_pclk;        // 5 MHz
 
-    fpga_top #(.BOOT_HEX({D, "boot_rom.mem"}), .CONTINUOUS(1'b0)) dut (
-        .clk_board(clk), .rst_btn(rst_btn),
+    // fast SCCB in simulation (the register sequence itself is checked by tb_cam_vga)
+    fpga_top #(.BOOT_HEX({D, "boot_rom.mem"}), .CONTINUOUS(1'b0), .SCCB_HZ(5_000_000), .MS_DIV(100)) dut (
+        .clk_board(clk), .cpu_resetn(cpu_resetn), .btnc(1'b0), .sw0(1'b0),
+        .cam_xclk(cam_xclk), .cam_reset_n(cam_reset_n), .cam_pwdn(cam_pwdn),
+        .cam_sioc(cam_sioc), .cam_siod(cam_siod),
         .cam_pclk(cam_pclk), .cam_vsync(cam_vsync), .cam_href(cam_href), .cam_d(cam_d),
-        .cam_xclk(cam_xclk), .cam_pwdn(cam_pwdn),
         .flash_sck(flash_sck), .flash_cs_n(flash_cs_n), .flash_io(flash_io),
-        .led(led), .result_o(result_o), .host_irq(host_irq)
+        .vga_r(vga_r), .vga_g(vga_g), .vga_b(vga_b), .vga_hs(vga_hs), .vga_vs(vga_vs),
+        .led(led)
     );
 
     W25Q16JV flash (.CSn(flash_cs_n), .CLK(flash_sck), .DIO(flash_io[0]), .DO(flash_io[1]),
@@ -98,7 +104,9 @@ module tb_fpga_full;
     initial begin
         int bad = 0;
         repeat (20) @(posedge clk);
-        rst_btn = 0;
+        cpu_resetn = 1;
+        wait (led[8]);
+        $display("[%0t] camera configured over SCCB (%0d cycles)", $time, cyc);
         wait (dut.soc.cam_arm);
         $display("[%0t] boot master finished the descriptors, SoC started (%0d cycles)", $time, cyc);
         pclk_en = 1;
@@ -122,6 +130,13 @@ module tb_fpga_full;
 
         for (int i = 0; i < cls_words; i++)
             if (dut.soc.act.peek(cls_base + i) !== cls_exp[i]) bad++;
+        begin
+            int fbad = 0;
+            for (int i = 0; i < CAM_W * CAM_H; i++)
+                if (dut.fb.mem[i] !== {frame[i][15:12], frame[i][10:7], frame[i][4:1]}) fbad++;
+            $display("  VGA frame buffer vs camera frame   : %0d / %0d pixels differ", fbad, CAM_W * CAM_H);
+            bad += fbad;
+        end
         $display("\n[%0t] inference done after %0d cycles (%0.1f ms at 100 MHz)", $time, cyc, cyc / 1e5);
         $display("  classifier maps vs bit-exact model : %0d / %0d words differ", bad, cls_words);
         $display("  result pins %0d (valid %0d), boot master read over SPI: class %0d valid %0d, golden %0d",
